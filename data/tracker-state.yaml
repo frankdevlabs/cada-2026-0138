@@ -5,5 +5,51 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: null
-sources: {}
+last_run: "2026-06-10T13:28:07Z"
+sources:
+  T1-01:
+    last_seen_hash: "sha256:e0fc47855744aad347f82331f2f6fad1df89660efd63d12761b4260bbb06494e"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-02:
+    last_seen_hash: "sha256:e7d61dd7f19b272a8b30c9e655e89308131b8c725b1500e252911e8d61d4a712"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-03:
+    last_seen_hash: null
+    last_seen_at: null
+    status: "unreachable"
+    unreachable_reason: "AWS WAF challenge page (unreachable-by-design)"
+    consecutive_failures: 1
+    first_failed_at: "2026-06-10T13:28:07Z"
+  T1-04:
+    last_seen_hash: "sha256:75e74ef5354a728cae9de3f557cfd28a09e68d519a5c77552bcb3cf20910d932"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-05:
+    last_seen_hash: "sha256:0a9ef59638ec34c07cf4274a84cc22b07a0a0c962a29f0983531360712fe6b6e"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-06:
+    last_seen_hash: "sha256:28cfc1bb6492c2fcd1ef919356e96e9be96646c78795bd4bb5d8a9e174c7ace3"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-07:
+    last_seen_hash: "sha256:58992088d1093f2ffbfe1f525e5957bdc4c7ad3366254fd64884f387aadb479b"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-08:
+    last_seen_hash: "sha256:2ac8009a4a6106d4d5505ebe867910baeb6631198507c228d67153ca116bb836"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-09:
+    last_seen_hash: "sha256:4d1aa39e7d6150d746b488339a3b46b3357cc43ae630f0ac73ab18c8a78e3cb7"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-10:
+    last_seen_hash: "sha256:d3b5017a91611a9071b906d0d2c2a80f28573924a514790619048403bdfb4f2b"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T1-11:
+    last_seen_hash: "sha256:209cbb4c8e0b5a05a1fd694d1acf398be62cd862403aff78a3828039bbea2b2d"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T2-01:
+    last_seen_hash: "sha256:69eae95fb3c0dc8c9bf05ca8ea183014104ab5fe476f784a6ac3c245d7044f01"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T2-02:
+    last_seen_hash: "sha256:ac68194fd124332ca665cea58d429d34ffa4d7434219af5219226e454d858927"
+    last_seen_at: "2026-06-10T13:28:07Z"
+  T2-03:
+    last_seen_hash: "sha256:c4707ff5de457f57d03c1616f966b4c747a9a67ed18e3f8a61238ad614eb3783"
+    last_seen_at: "2026-06-10T13:28:07Z"
