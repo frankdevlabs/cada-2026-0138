@@ -11,7 +11,10 @@ A personal, open tracker for the EU **Cloud and AI Development Act (CADA)** prop
 > track. See [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`) and `STATUS.md`
 > for why the two are kept apart.
 
-**Current status (high level):** see the full snapshot in **`STATUS.md`**.
+**Current status (high level):** Proposal tabled 3 June 2026 (Tech Sovereignty Package); Council at
+working-party start (cover note ST 10104/26, Telecom WP; policy debate at the Telecom Council of
+9 June 2026); European Parliament at pre-referral — no committee, no rapporteur; no compromise text,
+no general approach, no trilogue. Full snapshot in **[`STATUS.md`](STATUS.md)**.
 
 ---
 
@@ -27,7 +30,7 @@ The repo deliberately separates three layers so that links stay stable over time
 
 ### Navigation
 
-- **`STATUS.md`** — where the file stands right now (one screen).
+- **[`STATUS.md`](STATUS.md)** — where the file stands right now (one screen).
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
 - **[`docs/commission-proposal.md`](docs/commission-proposal.md)** — digest of the Commission proposal's explanatory memorandum.
