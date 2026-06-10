@@ -10,7 +10,7 @@
 |---|---|---|
 | 2025-04-09 | **Call for evidence / impact assessment consultation on CADA opens** (runs to 4 June 2025) | [Commission policy page](https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act) |
 | 2025-06-04 | Call for evidence closes; NL stakeholder input filed Q2 2025 | [Eerste Kamer annex](https://www.eerstekamer.nl/overig/20251006/bijlage_2c_cloud_ai_development/meta) |
-| 2025-10-20 | **Commission Work Programme 2026** schedules CADA (and a new Chips Act) for Q1 2026 | [Commission](https://commission.europa.eu/strategy-and-policy/strategic-planning/commission-work-programme_en) |
+| 2025-10-20 | **Commission Work Programme 2026** schedules CADA (and a new Chips Act) for Q1 2026 | [Commission](https://commission.europa.eu/strategy-and-policy/strategy-documents/commission-work-programme_en) |
 | 2025-12-10 | **EPRS briefing** "EU cloud and AI development act" (PE 779.251) — pre-proposal analysis | [register](sources/README.md) · [EP Think Tank](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)779251) |
 
 ## 2026
