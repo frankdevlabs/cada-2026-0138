@@ -1,14 +1,10 @@
 # Document register — the SINGLE source of truth for every official document on the file.
 # sources/README.md is its *rendered* table (edit this YAML, then mirror the table; never the table alone).
 #
-# TEMPLATE NOTE: the rows below are EXAMPLE entries from the reference file 2025/0360 (COD),
-# kept to show the schema and every field in use. Replace them with your file's documents
-# (use the `register-document` skill — it appends here and renders sources/README.md).
-#
 # Field reference:
-#   id            stable institutional id (COM-…, ST-…, WK-…, CM-…, OEIL-…, EDPB-EDPS-…, ECB-…, EESC-…)
+#   id            stable institutional id (COM-…, ST-…, WK-…, CM-…, OEIL-…, EESC-…)
 #   title         quoted descriptive title
-#   body          institution: Commission | Council | Parliament | EDPB-EDPS | ECB | EESC | <Member State> | …
+#   body          institution: Commission | Council | Parliament | EESC | CoR | <Member State> | …
 #   date          ISO YYYY-MM-DD
 #   limite        bool — true for Council LIMITE documents
 #   url           authoritative URL (also: celex)
@@ -21,50 +17,113 @@
 #   leading_service / mandatory_consultees / notes   prose context (notes is a `>-` block)
 
 documents:
-  - id: COM-2025-837
-    title: "Digital Omnibus — proposal for a Regulation (digital simplification: GDPR, ePrivacy, P2B, cyber)"
+  - id: COM-2026-502
+    title: "Cloud and AI Development Act (CADA) — proposal for a Regulation establishing a framework of measures for strengthening Europe's cloud and AI ecosystem"
     body: Commission
-    date: 2025-11-19
+    date: 2026-06-03
     limite: false
-    url: https://eur-lex.europa.eu/procedure/EN/2025_360
-    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
-    local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
-    local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
-    leading_service: "Lead service DG CNECT; political leads EVP Virkkunen and Commissioner McGrath."
-    mandatory_consultees: European Committee of the Regions, European Central Bank, European Economic and Social Committee
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada
+    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0502
+    local: sources/commission/COM-2026-502_proposal_2026-06-03.pdf
+    local_annex: sources/commission/COM-2026-502_annexes-1-3_2026-06-03.pdf
+    leading_service: "Lead service DG CNECT; political leads President von der Leyen and EVP Virkkunen (Tech Sovereignty, Security and Democracy)."
+    mandatory_consultees: European Economic and Social Committee, European Committee of the Regions
     notes: >-
-      EXAMPLE row. The proposal this reference repo tracks. Accompanied by SWD(2025) 836; base-text
-      operative extracts in extracts/commission/. Annex I = correlation tables.
+      The proposal this repo tracks — the legislative core of the European Technological
+      Sovereignty Package (presented 3 June 2026 together with Chips Act 2.0, the EU Open Source
+      Strategy and the Strategic Roadmap for Digitalisation and AI in Energy). 48 articles in five
+      Titles; legal bases Art 114 + 173(3) TFEU; Text with EEA relevance. Standalone regulation —
+      amends/repeals nothing. Accompanied by SWD(2026) 502 (impact assessment, 2 parts) and
+      SWD(2026) 503 (executive summary). Annexes 1–3 committed separately.
 
-  - id: EDPB-EDPS-JO-2-2026
-    title: "EDPB–EDPS Joint Opinion 2/2026 on the Digital Omnibus"
-    body: EDPB-EDPS
-    date: 2026-02-10
+  - id: SWD-2026-502
+    title: "Impact assessment report accompanying the CADA proposal (Parts 1 and 2)"
+    body: Commission
+    date: 2026-06-03
     limite: false
-    url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en
-    local: sources/edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada
+    local: sources/commission/SWD-2026-502_impact-assessment-part1_2026-06-03.pdf
+    local_annex: sources/commission/SWD-2026-502_impact-assessment-part2_2026-06-03.pdf
     notes: >-
-      EXAMPLE row (advisory-body opinion). Digest: docs/advisory/edpb-edps-jo-2-2026.md.
+      Two-part impact assessment. The executive summary carries its own number, SWD(2026) 503
+      (registered separately) — secondary reporting often mislabels it SWD(2026) 502 summary.
 
-  - id: ST-9547-2026
-    title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+  - id: SWD-2026-503
+    title: "Executive summary of the impact assessment report accompanying the CADA proposal"
+    body: Commission
+    date: 2026-06-03
+    limite: false
+    url: https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada
+    local: sources/commission/SWD-2026-503_impact-assessment-summary_2026-06-03.pdf
+
+  - id: ROADMAP-2026-04-23
+    title: "Joint Roadmap 'One Europe, One Market' (EP / Council / Commission)"
+    body: Commission
+    date: 2026-04-23
+    limite: false
+    url: https://commission.europa.eu/document/download/5445de81-9481-4335-9902-9756159ba614_en?filename=one-europe-one-market-roadmap.pdf
+    local: sources/commission/ROADMAP-2026-04-23_one-europe-one-market_2026-04-23.pdf
+    notes: >-
+      Indicative inter-institutional political planning: names a target window of ~Q4 2027 for CADA
+      (Q2 2027 for Chips Act 2.0). Not a legal deadline — no OJ publication or entry-into-force
+      commitment. Joint EP/Council/Commission document, filed under commission/ for convenience.
+
+  - id: IP-26-1187
+    title: "Commission press release presenting the European Technological Sovereignty Package"
+    body: Commission
+    date: 2026-06-03
+    limite: false
+    access: cite-only
+    url: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187
+    notes: >-
+      Cite-only (presscorner; no file committed). Companion factsheet: fs_26_1189
+      (https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1189).
+
+  - id: ST-10104-2026
+    title: "Cover note — transmission of COM(2026) 502 final to the Council (TELECOM 292, CYBER 271, MI 587, COMPET 700, IA 150, CODEC 1090)"
     body: Council
-    date: 2026-05-21
-    limite: true
-    access: public-via-national-parliament
-    register: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf   # 404 until released
-    national_parliament: https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322
-    local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
-    notes: >-
-      EXAMPLE row (Council LIMITE compromise text). Operative text in extracts/council/ (the shipped
-      example set). Shows the LIMITE provenance fields (register + national_parliament + access).
-
-  - id: OEIL-2025-0360
-    title: "Procedure file 2025/0360(COD) — Simplification of the digital legislative framework"
-    body: Parliament
-    date: 2026-01-19
+    date: 2026-06-04
     limite: false
-    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
+    url: https://data.consilium.europa.eu/doc/document/ST-10104-2026-INIT/en/pdf
+    local: sources/council/ST-10104-2026_cover-note-proposal_2026-06-04.pdf
+    local_add1: sources/council/ST-10104-2026-ADD-1_cover-note-annexes_2026-06-04.pdf
     notes: >-
-      EXAMPLE row (Parliament procedure file — link-only, no committed file). Joint committee
-      responsible (Rule 59): ITRE + LIBE; opinions JURI + IMCO.
+      Secretariat-General transmission of the proposal to the Council (received 3 June 2026,
+      circulated 4 June 2026). ADD 1 carries the annexes. The working-party codes confirm Telecom
+      WP as lead. Future Presidency compromise texts on this file will appear as new ST numbers —
+      watch this register stream.
+
+  - id: OEIL-2026-0138
+    title: "Procedure file 2026/0138(COD) — Cloud and AI Development Act"
+    body: Parliament
+    date: 2026-06-03
+    limite: false
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)
+    notes: >-
+      Parliament procedure file — link-only, no committed file. Committee referral and rapporteur
+      appointment pending (ITRE expected).
+
+  - id: EPRS-BRI-2025-779251
+    title: "EPRS briefing — 'EU cloud and AI development act' (Commission initiative in preparation)"
+    body: Parliament
+    date: 2025-12-10
+    limite: false
+    url: https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)779251
+    local: sources/parliament/EPRS-BRI-2025-779251_cada-briefing_2025-12-10.pdf
+    notes: >-
+      Pre-proposal EPRS briefing (PE 779.251, December 2025) — written before COM(2026) 502 was
+      adopted; useful background on the option space, not a description of the tabled text.
+
+  - id: NL-NONPAPER-2026-04-17
+    title: "Non-paper by the Netherlands — 'An Integrated Approach for the EU Tech Sovereignty Package' (Sovereign Tech Stack)"
+    body: Netherlands
+    date: 2026-04-17
+    limite: false
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D18815
+    mirror: https://www.rijksoverheid.nl/documenten/2026/04/20/nonpaperbythenetherlandsontheeutechsovereigntypackage
+    local: sources/member-states/NL-NONPAPER-2026-04-17_integrated-approach-tech-sovereignty_2026-04-17.pdf
+    notes: >-
+      Dated The Hague, 17 April 2026; tabled around the informal Telecom Council of 20 April 2026
+      (Kamerstuk series 21501-33; Tweede Kamer document 2026D18815). Argues for organising the
+      package around a "Sovereign Tech Stack" with a demand–supply loop across the stack layers and
+      open source as cross-cutting enabler; explicitly supports earlier DE and DK non-papers on CADA.

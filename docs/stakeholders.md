@@ -1,8 +1,30 @@
 # Stakeholders — NGO / industry / academic positions
 
-> **TEMPLATE stub.** Replace with non-institutional positions (the Tier-2/Tier-3 watchlist sources in
-> [`tracker.yaml`](../tracker.yaml)). The `resolve-tracker-issue` skill routes substantive stakeholder
-> hits here (and the sharper civil-society positions to [`fault-lines.md`](fault-lines.md)).
+> Non-institutional positions (the Tier-2 watchlist sources in [`tracker.yaml`](../tracker.yaml)).
+> Sharper civil-society/political positions also feed [`fault-lines.md`](fault-lines.md).
 
-## <Stakeholder>
-<position summary + source link>
+## Dutch tech sector
+
+- **NLdigital** — broadly positive on the package; concerns on financing, bureaucracy/fragmentation
+  and feasibility ([Computable round-up](https://www.computable.nl/2026/06/04/techwereld-vrij-positief-over-europese-pakket-voor-digitale-soevereiniteit/)).
+- **Dutch Data Center Association (DDA)** — supportive of the capacity ambition, but flags the contrast
+  between strategic-autonomy goals and growing regulatory burden, long permitting tracks and grid
+  congestion in NL.
+
+## Members of the European Parliament (early individual reactions)
+
+- **Kim van Sparrentak (GroenLinks-PvdA / Greens-EFA)** — criticises the absence of hard obligations
+  for public authorities to choose European cloud providers.
+- **Bart Groothuis (VVD / Renew)** — criticises the lack of investment in European open-source AI models.
+
+## Legal / policy analyses
+
+- [Covington — Inside Global Tech](https://www.globalpolicywatch.com/2026/06/eu-tech-sovereignty-package/) — package overview.
+- [Wilson Sonsini](https://www.wsgr.com/en/insights/european-commission-publishes-proposal-for-act-to-reduce-reliance-on-foreign-cloud-and-ai.html) — assurance-levels analysis.
+- [SUSE](https://www.suse.com/c/eu-cloud-ai-development-act-open-source-first/) — open-source-first / Art 41 angle.
+- [Tech Policy Press](https://www.techpolicy.press/eu-unveils-sweeping-tech-sovereignty-push-balancing-autonomy-with-openness/) — autonomy-vs-openness framing.
+
+## Compliance trackers (unofficial)
+
+- [eu-cloud-ai-act.com](https://www.eu-cloud-ai-act.com/) (Cyber Risk GmbH) — article-by-article mirror;
+  unofficial, verify against the proposal PDF.

@@ -3,7 +3,7 @@
 Per-issue working plans for integrating what the daily tracker flags.
 
 The daily tracker cron opens one `[tracker] …` GitHub issue per hit (see
-`data/watchlist.yaml` for what each source feeds). The
+`tracker.yaml` (`watchlist.sources`) for what each source feeds). The
 [`resolve-tracker-issue`](../../.claude/skills/resolve-tracker-issue/SKILL.md) skill —
 run on the fly via `/tracker-issue <n>` or automatically after each cron run — turns one
 such issue into a focused plan here.

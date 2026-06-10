@@ -1,15 +1,13 @@
-# <SHORT-NAME> Tracker — File <FILE-ID>
+# Cloud and AI Development Act (CADA) Tracker — File 2026/0138 (COD)
 
-A personal, open tracker for the EU **<SHORT-NAME>** proposal. Strand: <STRAND>.
+A personal, open tracker for the EU **Cloud and AI Development Act (CADA)** proposal. Strand: EU Cloud Sovereignty Framework (four assurance levels), data-centre capacity tripling, cloud/AI strategic projects and acceleration zones, public-sector cloud procurement, open-source-first (Art 41).
 
-> **Built from the EU legislative-tracker template.** The file this repo follows is set
-> once in [`tracker.yaml`](tracker.yaml); `python3 bootstrap.py` fills the `<PLACEHOLDER>` tokens in
-> this README, `CLAUDE.md` and `STATUS.md`. Some pages still carry **EXAMPLE** content from the
-> reference file `2025/0360 (COD)` — replace it per `SETUP.md`.
+> **Built from the [EU legislative-tracker template](https://github.com/frankdevlabs/eu-legislative-tracker-template).**
+> The file this repo follows is set once in [`tracker.yaml`](tracker.yaml).
 
-> **Scope.** This repo tracks **one file only: `<FILE-ID>`** — Commission proposal
-> **<PROPOSAL-ID> final** of <PROPOSAL-DATE>.
-> It is **not** `<KEEP-APART-ID>` (<KEEP-APART-NOTE>), which is a separate proposal on a separate
+> **Scope.** This repo tracks **one file only: `2026/0138 (COD)`** — Commission proposal
+> **COM(2026) 502 final** of 2026-06-03.
+> It is **not** `2026/0139 (COD)` (Chips Act 2.0 (COM(2026) 504, repealing Regulation (EU) 2023/1781) — the other legislative half of the same Tech Sovereignty Package), which is a separate proposal on a separate
 > track. See [`tracker.yaml`](tracker.yaml) (`file_id` vs `keep_apart`) and `STATUS.md`
 > for why the two are kept apart.
 
@@ -52,7 +50,7 @@ The repo deliberately separates three layers so that links stay stable over time
    paths survive renames, forks and a move to a private mirror.
 2. **Deep-link into extracts, not PDFs.** GitHub's PDF viewer does not support reliable
    `#page=` anchors, so to point at a specific article use the markdown extract's heading anchor,
-   e.g. `extracts/council/ST-<nnnn>-<yyyy>_gdpr-art3-amendments.md#point-8--article-33-breach-notification`.
+   e.g. `extracts/commission/COM-2026-502_sovereignty-framework-art16-28.md#article-16-assurance-levels`.
 3. **Source PDFs are committed in `sources/`.** The Council compromise texts (incl. LIMITE ones)
    are hosted in this repo for transparency and offline diffing; the register also records the
    document number, the Council register reference, and any national-parliament record or public
@@ -64,7 +62,7 @@ The repo deliberately separates three layers so that links stay stable over time
 
 `<INSTITUTIONAL-ID>_<short-description>_<ISO-date>.<ext>` — the stable document number first,
 ISO date last, so chronological sort always works
-(e.g. `ST-9547-2026_council-presidency-compromise_2026-05-21`).
+(e.g. `ST-10104-2026_cover-note-proposal_2026-06-04`).
 
 ## Contributing / adding a document
 

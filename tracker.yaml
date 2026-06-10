@@ -5,86 +5,78 @@
 # else (CLAUDE.md, README.md, STATUS.md, the skills' scope checks) reads from
 # here or is filled from here by `python3 bootstrap.py`.
 #
-# It ships FILLED IN with file 2025/0360 (COD) — the Digital Omnibus — as a
-# complete worked example, matching the EXAMPLE content elsewhere in the repo.
-# To start a new tracker:
-#   1. Replace every value below with your file's.
-#   2. Run `python3 bootstrap.py` to push the <PLACEHOLDER> tokens into the
-#      static docs (CLAUDE.md, README.md, STATUS.template.md -> STATUS.md).
-#   3. Replace the EXAMPLE-marked content (see SETUP.md).
-# See SETUP.md for the full checklist.
+# This tracker follows file 2026/0138 (COD) — the Cloud and AI Development Act
+# (CADA), part of the European Technological Sovereignty Package (3 June 2026).
 # ============================================================================
 
 # --- Identity ---------------------------------------------------------------
-file_id: "2025/0360 (COD)"                # interinstitutional file number + procedure type
-short_name: "Digital Omnibus (data/cyber)"
-strand: "GDPR, ePrivacy/cookies, P2B, cyber incident-reporting"
+file_id: "2026/0138 (COD)"                # interinstitutional file number + procedure type
+short_name: "Cloud and AI Development Act (CADA)"
+strand: "EU Cloud Sovereignty Framework (four assurance levels), data-centre capacity tripling, cloud/AI strategic projects and acceleration zones, public-sector cloud procurement, open-source-first (Art 41)"
 
 proposal:
-  id: "COM(2025) 837"                     # Commission proposal id (without "final")
-  date: "2025-11-19"                      # ISO
-  swd: "SWD(2025) 836"                    # accompanying staff working doc, if any
-  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837"
-  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
+  id: "COM(2026) 502"                     # Commission proposal id (without "final")
+  date: "2026-06-03"                      # ISO
+  swd: "SWD(2026) 502"                    # accompanying impact assessment (Part 1/2 + summary)
+  celex: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0502"
+  oeil: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)"
 
 # Sibling file(s) that are easy to confuse with this one and must NOT be tracked
 # here. Drives the scope-guard text in CLAUDE.md/README and the skills' scope rule.
 keep_apart:
-  - file_id: "2025/0359 (COD)"
-    note: "AI-Act Digital Omnibus — a separate, faster file on the AI Act strand"
+  - file_id: "2026/0139 (COD)"
+    note: "Chips Act 2.0 (COM(2026) 504, repealing Regulation (EU) 2023/1781) — the other legislative half of the same Tech Sovereignty Package"
+# The package's two NON-legislative parts (EU Open Source Strategy; Strategic
+# Roadmap for Digitalisation and AI in Energy) are tracked here only where they
+# touch CADA (e.g. the open-source-first principle anchored in CADA Art 41).
 
-legal_bases: ["Article 16(2) TFEU", "Article 114 TFEU"]
+legal_bases: ["Article 114 TFEU", "Article 173(3) TFEU"]   # per the citations of COM(2026) 502
 
 # Existing laws this file amends/repeals. Drives docs/instruments/ pages.
+# CADA is a STANDALONE regulation: a text search of COM(2026) 502 finds no
+# "is amended"/"repealed" provisions. The instruments below are REFERENCED
+# (interfaces), not amended — confirm once more when transcribing Title V.
 instruments:
-  - { name: "GDPR", celex: "2016/679" }
-  - { name: "ePrivacy Directive", celex: "2002/58" }
+  - { name: "Data Act", celex: "2023/2854" }
   - { name: "NIS2 Directive", celex: "2022/2555" }
-  - { name: "P2B Regulation", celex: "2019/1150" }
+  - { name: "DORA", celex: "2022/2554" }
+  - { name: "GDPR", celex: "2016/679" }
+  - { name: "AI Act", celex: "2024/1689" }
+  - { name: "Cybersecurity Act", celex: "2019/881" }
 
 # The per-version operative-text file set under extracts/. EACH compromise
 # version gets one file per slice, named ST-<nnnn>-<yyyy>_<slice>.md, so
-# `git diff` between versions lines up. For another file these slices differ —
-# they follow your file's article groupings, not these.
+# `git diff` between versions lines up.
+# Derived from the explanatory memorandum of COM(2026) 502 (48 articles, five
+# Titles); confirm against the operative text when transcribing the baseline.
 extract_slices:
-  - gdpr-art3-amendments
-  - eprivacy-art5
-  - cyber-art6-9
-  - final-art10-11
+  - general-provisions-art1-2        # Title I — subject matter, definitions
+  - leadership-initiatives-art3-9    # Title II — Cloud and AI Leadership Initiatives, frontier AI priority projects
+  - data-centres-art10-15            # Title III — acceleration zones, strategic projects, capacity monitoring
+  - sovereignty-framework-art16-28   # Title IV ch I — Union assurance levels 1-4, recognition, audits, NCAs
+  - public-sector-use-art29-33       # Title IV ch II — risk assessments, procurement obligations, NIS2-sector impact assessments
+  - eurocloud-federation-art34-36    # Title IV ch III
+  - common-procurement-art37-40      # Title IV ch IV — Commission common procurement framework
+  - open-source-art41-44             # Title IV ch VI — open-source preference, sharing/reuse, catalogue, OSPO network
+  - final-provisions-art45-48        # Title V — delegated/implementing acts, review, entry into force
   - recitals
-  # 2025/0360 also carries these informational cross-ref slices in some versions:
-  - dataact-art1
-  - sdg-art2
-  - eudpr-art4
 
 # OLP actor skeleton for STATUS.md "Where each institution stands".
 co_legislators:
   council:
-    config: "working party / Antici Group (Simplification)"
+    config: "Telecom Working Party (verify against ST 10104/26 cover note routing: TELECOM/CYBER/MI/COMPET/CODEC)"
   parliament:
-    committees_responsible: ["ITRE", "LIBE"]   # joint, Rule 59
-    committees_opinion: ["IMCO", "JURI"]
+    committees_responsible: []            # not yet appointed; ITRE expected (verify)
+    committees_opinion: []
 
 # Advisory bodies that must be / have been consulted (drives the STATUS advisory table).
-advisory_bodies: ["EDPB-EDPS", "ECB", "EESC", "CoR"]
+advisory_bodies: ["EESC", "CoR"]
 
 # ============================================================================
 # Watchlist — the sources the daily tracker monitors. Consumed by
 # .claude/skills/resolve-tracker-issue (tracker_issues.py joins each flagged
 # "[tracker]" issue to its `affects` list). The same mapping must be mirrored in
-# the cron prompt (~/law-tracker/prompt.md) — keep the two in sync.
-#
-# This ships with a REPRESENTATIVE SUBSET of the 35 sources used for 2025/0360
-# (full list lived in the old data/watchlist.yaml). Replace with your file's
-# sources. Fields per source:
-#   tier        T1 (institutional) | T2 (stakeholder) | T3 (social)
-#   kind        institutional | stakeholder | social
-#   label       human-readable name (matches the issue body "**Source:**")
-#   url         watched URL (T1/T2); omitted for T3 (Bluesky uses handle/did)
-#   handle/did  Bluesky actor (T3 only)
-#   document_id optional join to data/documents.yaml (when the source IS a doc)
-#   affects     downstream files/dirs to review on a substantive hit
-#   notes       fetch quirks / scope rules
+# the cron prompt (~/law-tracker/prompt-cada.md) — keep the two in sync.
 # ============================================================================
 watchlist:
   sources:
@@ -92,50 +84,97 @@ watchlist:
     T1-01:
       tier: T1
       kind: institutional
-      label: "OEIL — Parliament procedure file (HTML)"
-      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
-      document_id: OEIL-2025-0360
+      label: "OEIL — Parliament procedure file 2026/0138(COD) (HTML)"
+      url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)"
+      document_id: OEIL-2026-0138
       affects: [STATUS.md, TIMELINE.md]
+    T1-02:
+      tier: T1
+      kind: institutional
+      label: "EUR-Lex Cellar — Commission proposal (CELEX 52026PC0502)"
+      url: "https://publications.europa.eu/resource/celex/52026PC0502"
+      document_id: COM-2026-502
+      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
+      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
     T1-03:
       tier: T1
       kind: institutional
-      label: "EUR-Lex Cellar — Commission proposal (CELEX 52025PC0837)"
-      url: "https://publications.europa.eu/resource/celex/52025PC0837"
-      document_id: COM-2025-837
-      affects: [extracts/commission/, STATUS.md, TIMELINE.md]
-      notes: "Machine-readable fallback for AWS-WAF-blocked EUR-Lex pages. Base text rarely changes."
+      label: "EUR-Lex — CADA procedure history (HIS page)"
+      url: "https://eur-lex.europa.eu/legal-content/EN/HIS/?uri=CELEX:52026PC0502"
+      affects: [STATUS.md, TIMELINE.md]
+      notes: "EUR-Lex bot-blocks (202/WAF); prefer the Cellar endpoint T1-02 when this fails."
+    T1-04:
+      tier: T1
+      kind: institutional
+      label: "Council register — ST 10104/2026 (CADA cover note / future compromise texts)"
+      url: "https://data.consilium.europa.eu/doc/document/ST-10104-2026-INIT/en/pdf"
+      document_id: ST-10104-2026
+      affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
+      notes: "HIGHEST PRIORITY once Council compromise texts start appearing. LIMITE texts 404 on the live register — fall back to national-parliament records or press mirrors. A new ST version -> transcribe-council-extract skill, then cascade through provisions/positions."
+    T1-05:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — CADA policy page"
+      url: "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
+      affects: [STATUS.md, TIMELINE.md, docs/commission-proposal.md]
+    T1-06:
+      tier: T1
+      kind: institutional
+      label: "Commission digital-strategy — CADA proposal library page (proposal, annexes, impact assessment)"
+      url: "https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada"
+      document_id: COM-2026-502
+      affects: [extracts/commission/, sources/, STATUS.md]
+    T1-07:
+      tier: T1
+      kind: institutional
+      label: "EP Legislative Train — Cloud and AI Development Act"
+      url: "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-cloud-and-ai-development-act"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: "Watch for committee referral + rapporteur appointment (ITRE expected)."
+    T1-08:
+      tier: T1
+      kind: institutional
+      label: "EESC — CADA opinion page"
+      url: "https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act"
+      affects: [docs/advisory/, docs/institutional-positions.md, STATUS.md]
     T1-09:
       tier: T1
       kind: institutional
-      label: "Austrian Parliament — EU dossier (hosts Council LIMITE texts)"
-      url: "https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322"
-      affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
-      notes: "HIGHEST PRIORITY for new Council LIMITE compromise texts. A new ST version -> hand off to the transcribe-council-extract skill, then cascade through provisions/positions."
-    T1-13:
+      label: "Officiële bekendmakingen — dossier 22112 (BNC-fiches; NL government position on new Commission proposals)"
+      url: "https://zoek.officielebekendmakingen.nl/dossier/22112"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+      notes: "Watch for the BNC-fiche on CADA / Chips Act 2.0 (expected ~6 weeks after 2026-06-03)."
+    T1-10:
       tier: T1
       kind: institutional
-      label: "EDPB–EDPS Joint Opinion"
-      url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en"
-      document_id: EDPB-EDPS-JO-2-2026
-      affects: [docs/advisory/edpb-edps-jo-2-2026.md, docs/institutional-positions.md]
-    # --- Tier 2: NGO / journalism / law firm -------------------------------
+      label: "Officiële bekendmakingen — dossier 21501-33 (Telecomraad)"
+      url: "https://zoek.officielebekendmakingen.nl/dossier/21501-33"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    T1-11:
+      tier: T1
+      kind: institutional
+      label: "digitaleoverheid.nl — news (NL digital-government signals)"
+      url: "https://www.digitaleoverheid.nl/nieuws/"
+      affects: [docs/member-state-positions.md, docs/stakeholders.md]
+    # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
       kind: stakeholder
-      label: "noyb — RSS"
-      url: "https://noyb.eu/en/rss"
+      label: "Tech Policy Press — feed"
+      url: "https://www.techpolicy.press/feed/"
       affects: [docs/stakeholders.md, docs/fault-lines.md]
     T2-02:
       tier: T2
       kind: stakeholder
-      label: "EDRi — feed"
-      url: "https://edri.org/feed/"
-      affects: [docs/stakeholders.md, docs/fault-lines.md]
-    # --- Tier 3: Bluesky watchlist -----------------------------------------
-    T3-02:
-      tier: T3
-      kind: social
-      label: "Bluesky — noyb.eu"
-      handle: "noyb.eu"
-      did: "did:plc:6tig4nnvqut4jhyxmvqbxbag"
-      affects: [docs/stakeholders.md, docs/fault-lines.md]
+      label: "Dutch Data Center Association — news"
+      url: "https://www.dutchdatacenters.nl/nieuws/"
+      affects: [docs/stakeholders.md]
+      notes: "NL sector voice on data-centre capacity / acceleration zones."
+    T2-03:
+      tier: T2
+      kind: stakeholder
+      label: "NLdigital — news"
+      url: "https://www.nldigital.nl/nieuws/"
+      affects: [docs/stakeholders.md]
+    # --- Tier 3: social ------------------------------------------------------
+    # none yet
