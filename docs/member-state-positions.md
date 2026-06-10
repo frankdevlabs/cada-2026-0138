@@ -30,6 +30,15 @@ tabled around the informal Telecom Council of 20 April 2026) —
 - The annotated agenda for the formal Telecom Council of 9 June 2026 (Kamerstuk 21501-33) predates the
   package presentation and contains no CADA appraisal.
 
+## D9+ group (incl. NL)
+
+The **D9+ ministerial meeting** (Luxembourg, 8 June 2026 — the 13 most digitally advanced Member
+States, incl. NL, DK, IE) discussed "challenges and ambitions relating to digital sovereignty in an
+open manner" under its European-competitiveness debate, reported to the TTE Council as AOB —
+[ST 9881/26](https://data.consilium.europa.eu/doc/document/ST-9881-2026-INIT/en/pdf). A bloc to watch
+for coordinated positions on the sovereignty framework ("open" framing suggests wariness of
+protectionist readings).
+
 ## Germany / Denmark
 
 Referenced by the NL non-paper as authors of earlier CADA non-papers; texts not yet obtained.

@@ -32,9 +32,9 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 
 ### Council of the EU — co-legislator
 - **Stage:** Working-party start — proposal received 3 June 2026, circulated 4 June as [ST 10104/26 + ADD 1](sources/README.md) (Telecom WP lead; routing TELECOM/CYBER/MI/COMPET/IA/CODEC)
-- **Latest act:** Policy debate "Technological Sovereignty" at the formal Telecom Council, 9 June 2026 — [timeline](TIMELINE.md)
+- **Latest act:** Policy debate "Technological Sovereignty" at the formal Telecom Council, 9 June 2026 — ministers **welcomed the package**; convergence on reducing dependencies while preserving openness, anti-lock-in procurement and open source — [timeline](TIMELINE.md) · [main results (IEU mirror)](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080)
 - **Owner:** Cyprus Presidency (until 30 June 2026), then Ireland (from 1 July 2026)
-- **Position:** None yet — no Presidency compromise text, no general approach
+- **Position:** No formal position — no Presidency compromise text, no general approach; the 9 June debate yielded only general orientations, no CADA-specific commitments
 - **Next:** First working-party examinations under the Irish Presidency; watch the Council register for the first compromise ST number
 
 ### European Parliament — co-legislator

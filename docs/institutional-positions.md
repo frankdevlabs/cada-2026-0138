@@ -7,7 +7,7 @@
 | Institution | Stage | Headline position |
 |---|---|---|
 | **Commission** | proposer | Standalone sovereignty regulation: four assurance levels, capacity tripling, public-sector procurement obligations, open-source-first |
-| **Council** | co-legislator | None yet — proposal circulated 4 June 2026 (ST 10104/26, Telecom WP); first policy debate at the Telecom Council of 9 June 2026 |
+| **Council** | co-legislator | No formal position — proposal circulated 4 June 2026 (ST 10104/26, Telecom WP); at the 9 June 2026 Telecom Council policy debate ministers welcomed the package (general orientations only, nothing CADA-specific) |
 | **Parliament** | co-legislator | None yet — no committee referral, no rapporteur (ITRE expected) |
 
 The file is at the very start of the ordinary legislative procedure: the only institutional text is the
