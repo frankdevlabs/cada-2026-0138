@@ -178,5 +178,12 @@ watchlist:
       label: "NLdigital — news"
       url: "https://www.nldigital.nl/nieuws/"
       affects: [docs/stakeholders.md]
+    T2-04:
+      tier: T2
+      kind: stakeholder
+      label: "INSIGHT EU MONITORING — RSS"
+      url: "https://ieu-monitoring.com/feed/"
+      affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (e.g. the 9 June 2026 TTE Telecom Council). Filter on CADA / Telecom Council / tech sovereignty keywords."
     # --- Tier 3: social ------------------------------------------------------
     # none yet
