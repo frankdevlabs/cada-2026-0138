@@ -1,7 +1,9 @@
 # Public-sector use, risk assessments and procurement (Title IV ch II–IV, Arts 29–40)
 
-> **Baseline: Commission proposal COM(2026) 502.** Sourced from the explanatory memorandum and press
-> material — **pending verification against the operative text**. No co-legislator position yet.
+> **Baseline: Commission proposal COM(2026) 502.** Operative text:
+> [extracts — Title IV Ch II, Arts 29–33](../../extracts/commission/COM-2026-502_public-sector-use-art29-33.md) ·
+> [Ch III–IV, Arts 34–40](../../extracts/commission/COM-2026-502_common-procurement-art37-40.md).
+> No co-legislator position yet.
 
 ## What the proposal does
 

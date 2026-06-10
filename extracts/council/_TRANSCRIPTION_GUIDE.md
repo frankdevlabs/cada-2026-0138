@@ -30,7 +30,7 @@ resulting text.
   `ST-<nnnn>-<yyyy>_<slice>.md`, mirroring the `../commission/COM-2026-502_*` baseline set. Reuse the
   baseline's heading text and `<a id="...">` anchors wherever an article corresponds, so cross-links
   and diffs line up — BUT only for articles that exist in this version. New articles get their own
-  heading + anchor following the same slug pattern (`article-N-topic`).
+  heading + anchor following the same pattern (exactly `article-N`; recitals `recital-N`).
 - If a version genuinely lacks a slice, still create the file and state that the section is
   absent/unchanged in that version, with a one-line explanation.
 - Recitals file: curated subset (the contested/structural ones). State that it is a curated subset,

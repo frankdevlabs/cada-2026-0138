@@ -50,7 +50,7 @@ The repo deliberately separates three layers so that links stay stable over time
    paths survive renames, forks and a move to a private mirror.
 2. **Deep-link into extracts, not PDFs.** GitHub's PDF viewer does not support reliable
    `#page=` anchors, so to point at a specific article use the markdown extract's heading anchor,
-   e.g. `extracts/commission/COM-2026-502_sovereignty-framework-art16-28.md#article-16-assurance-levels`.
+   e.g. `extracts/commission/COM-2026-502_sovereignty-framework-art16-28.md#article-16`.
 3. **Source PDFs are committed in `sources/`.** The Council compromise texts (incl. LIMITE ones)
    are hosted in this repo for transparency and offline diffing; the register also records the
    document number, the Council register reference, and any national-parliament record or public

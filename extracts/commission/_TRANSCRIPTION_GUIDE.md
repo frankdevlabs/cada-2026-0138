@@ -37,8 +37,9 @@ Council did to that point, linking the matching `../council/` anchor.
   Arts 29–33, ch III Arts 34–36, ch IV Arts 37–40, ch VI Arts 41–44; Title V Arts 45–48; recitals).
   Confirm the groupings against the text while transcribing and adjust `extract_slices` if the
   proposal's own structure differs.
-- Anchor every article heading with `<a id="...">` following the slug pattern
-  (`article-N-topic`), so future Council versions can reuse the anchors and cross-version diffs line up.
+- Anchor every article heading with `<a id="article-N"></a>` (exactly `article-N` — no topic suffix;
+  recitals use `recital-N`), so future Council versions can reuse the anchors and cross-version diffs
+  line up. Sole exception: Title V's misprinted second "Article 44" carries `article-44-bis`.
 - Recitals file: curated subset (the contested/structural ones). State that it is a curated subset,
   not the full preamble.
 

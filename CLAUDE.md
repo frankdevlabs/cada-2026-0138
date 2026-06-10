@@ -32,8 +32,8 @@ The repo deliberately separates three layers so links stay stable as the file ev
 `extracts/council/` holds one file-set **per Council compromise version** (`ST-<nnnn>-<yyyy>`),
 structured identically so `git diff` between versions is meaningful. The slices in each set are listed
 in [`tracker.yaml`](tracker.yaml) (`extract_slices`) — for this file they follow COM(2026) 502's own
-Title/Chapter groupings (`_general-provisions-art1-2` … `_recitals`). **Neither set is transcribed
-yet**: the Commission baseline is a planned follow-up, and no Council compromise text exists.
+Title/Chapter groupings (`_general-provisions-art1-2` … `_recitals`). The **Commission baseline is
+transcribed** (10 files, anchors `article-N`/`recital-N`); no Council compromise text exists yet.
 
 ## Single sources of truth (don't hand-edit downstream copies)
 

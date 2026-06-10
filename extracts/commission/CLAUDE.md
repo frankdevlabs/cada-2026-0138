@@ -1,9 +1,11 @@
 # Commission extracts — working rules
 
-> **Not yet transcribed.** The base-text extract set for **COM(2026) 502 final** (one file per
-> `tracker.yaml` `extract_slices`, named `COM-2026-502_<slice>.md`) is a planned follow-up. Until it
-> lands, the committed proposal PDF under `../../sources/commission/` is the working source and
-> [`../../docs/commission-proposal.md`](../../docs/commission-proposal.md) the digest.
+> The base-text extract set for **COM(2026) 502 final** is transcribed: one file per `tracker.yaml`
+> `extract_slices` (`COM-2026-502_<slice>.md`, 10 files — 9 operative slices + a curated recitals
+> subset). Anchors are `article-N` / `recital-N`. Source quirks (typos, the missing definition points
+> (23)–(24), the Title V "Article 44" numbering slip → anchor `article-44-bis`) are preserved verbatim
+> and flagged inline. Cross-check against the committed PDF under
+> [`../../sources/commission/`](../../sources/commission/) before relying on any passage.
 
 Before adding or editing any file in this directory, read
 [`_TRANSCRIPTION_GUIDE.md`](./_TRANSCRIPTION_GUIDE.md) and follow it. It adapts the canonical

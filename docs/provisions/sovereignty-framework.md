@@ -1,7 +1,7 @@
 # EU Cloud Sovereignty Framework — Union assurance levels (Title IV ch I, Arts 16–28 + Annex II)
 
-> **Baseline: Commission proposal COM(2026) 502.** Sourced from the explanatory memorandum and press
-> material — **pending verification against the operative text** (extracts not yet transcribed).
+> **Baseline: Commission proposal COM(2026) 502.** Operative text:
+> [extracts — Title IV Ch I, Arts 16–28](../../extracts/commission/COM-2026-502_sovereignty-framework-art16-28.md).
 > No co-legislator has touched this provision yet.
 
 ## What the proposal does

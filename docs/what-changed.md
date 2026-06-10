@@ -13,5 +13,6 @@ When the first Council compromise text (a new ST number) or EP draft report land
 3. Promote a headline subset to `STATUS.md`'s "What changed in the latest text vs earlier reporting"
    section (format: [`reporting-standard.md`](reporting-standard.md)).
 
-Until then, the provision baseline is described in [`provisions/`](provisions/) (sourced from the
-explanatory memorandum and press material — pending verification against the operative text).
+Until then, the baseline is the transcribed Commission operative text in
+[`extracts/commission/`](../extracts/commission/) (anchors `article-N`), with analysis in
+[`provisions/`](provisions/).

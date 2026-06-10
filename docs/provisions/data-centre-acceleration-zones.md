@@ -1,7 +1,8 @@
 # Data-centre capacity: acceleration zones and strategic projects (Title III, Arts 10–15)
 
-> **Baseline: Commission proposal COM(2026) 502.** Sourced from the explanatory memorandum and press
-> material — **pending verification against the operative text**. No co-legislator position yet.
+> **Baseline: Commission proposal COM(2026) 502.** Operative text:
+> [extracts — Title III, Arts 10–15](../../extracts/commission/COM-2026-502_data-centres-art10-15.md).
+> No co-legislator position yet.
 
 ## What the proposal does
 

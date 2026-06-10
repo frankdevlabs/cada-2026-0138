@@ -3,16 +3,16 @@
 | Field | Value |
 |---|---|
 | **Procedure** | **2026/0138 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) |
-| **Proposal** | **COM(2026) 502 final** (3 June 2026) + SWD(2026) 502 (impact assessment) + SWD(2026) 503 (summary) — [digest](docs/commission-proposal.md) · [register](sources/README.md) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0502) |
+| **Proposal** | **COM(2026) 502 final** (3 June 2026) + SWD(2026) 502 (impact assessment) + SWD(2026) 503 (summary) — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [register](sources/README.md) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0502) |
 | **Legal bases** | Articles 114 and 173(3) TFEU |
 | **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (Telecom WP), Parliament at pre-referral (no committee, no rapporteur); **no general approach, no trilogue** |
 | **Latest text** | The Commission proposal itself — **COM(2026) 502 final** (3 June 2026) · [register](sources/README.md) (no compromise text exists yet) |
 | **As of** | **10 June 2026** (= `data/tracker-state.yaml` `last_run`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
-> [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); substance reflects COM(2026) 502 — the
-> operative-text extracts are not yet transcribed ([`extracts/`](extracts/)), so verify against the
-> committed proposal PDF before relying on detail.
+> [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); substance reflects the operative text of
+> COM(2026) 502 in [`extracts/commission/`](extracts/commission/) — working transcriptions, verify
+> against the committed proposal PDF before relying on them.
 
 ## One-line status
 

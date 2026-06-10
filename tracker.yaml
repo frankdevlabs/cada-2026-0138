@@ -47,8 +47,10 @@ instruments:
 # The per-version operative-text file set under extracts/. EACH compromise
 # version gets one file per slice, named ST-<nnnn>-<yyyy>_<slice>.md, so
 # `git diff` between versions lines up.
-# Derived from the explanatory memorandum of COM(2026) 502 (48 articles, five
-# Titles); confirm against the operative text when transcribing the baseline.
+# Confirmed against the operative text (transcribed in extracts/commission/).
+# Note: open source is Title IV Chapter V in the operative text (the memorandum
+# mislabels it Ch VI); Title V's delegation article is misprinted "Article 44"
+# (anchor article-44-bis in the extracts).
 extract_slices:
   - general-provisions-art1-2        # Title I — subject matter, definitions
   - leadership-initiatives-art3-9    # Title II — Cloud and AI Leadership Initiatives, frontier AI priority projects
@@ -57,7 +59,7 @@ extract_slices:
   - public-sector-use-art29-33       # Title IV ch II — risk assessments, procurement obligations, NIS2-sector impact assessments
   - eurocloud-federation-art34-36    # Title IV ch III
   - common-procurement-art37-40      # Title IV ch IV — Commission common procurement framework
-  - open-source-art41-44             # Title IV ch VI — open-source preference, sharing/reuse, catalogue, OSPO network
+  - open-source-art41-44             # Title IV ch V — open-source preference, sharing/reuse, catalogue, OSPO network
   - final-provisions-art45-48        # Title V — delegated/implementing acts, review, entry into force
   - recitals
 

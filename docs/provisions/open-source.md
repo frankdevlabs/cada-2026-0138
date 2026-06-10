@@ -1,7 +1,8 @@
-# Open source: preference, reuse, catalogue, OSPO network (Title IV ch VI, Arts 41–44)
+# Open source: preference, reuse, catalogue, OSPO network (Title IV ch V, Arts 41–44)
 
-> **Baseline: Commission proposal COM(2026) 502.** Sourced from the explanatory memorandum and press
-> material — **pending verification against the operative text**. No co-legislator position yet.
+> **Baseline: Commission proposal COM(2026) 502.** Operative text:
+> [extracts — Title IV Ch V, Arts 41–44](../../extracts/commission/COM-2026-502_open-source-art41-44.md).
+> No co-legislator position yet.
 
 ## What the proposal does
 
