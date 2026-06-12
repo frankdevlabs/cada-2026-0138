@@ -5,7 +5,7 @@
 | **Procedure** | **2026/0138 (COD)** — EU Ordinary Legislative Procedure · [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) |
 | **Proposal** | **COM(2026) 502 final** (3 June 2026) + SWD(2026) 502 (impact assessment) + SWD(2026) 503 (summary) — [digest](docs/commission-proposal.md) · [base-text extracts](extracts/commission/) · [register](sources/README.md) · [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026PC0502) |
 | **Legal bases** | Articles 114 and 173(3) TFEU |
-| **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (Telecom WP), Parliament at pre-referral (no committee, no rapporteur); **no general approach, no trilogue** |
+| **OLP stage** | 1st reading — **proposal tabled**; Council at working-party start (Telecom WP), Parliament at pre-referral (referral pending; ITRE shadow rapporteur named, no lead rapporteur); **no general approach, no trilogue** |
 | **Latest text** | The Commission proposal itself — **COM(2026) 502 final** (3 June 2026) · [register](sources/README.md) (no compromise text exists yet) |
 | **As of** | **10 June 2026** (= `data/tracker-state.yaml` `last_run`) |
 
@@ -38,11 +38,11 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 - **Next:** First working-party examinations under the Irish Presidency; watch the Council register for the first compromise ST number
 
 ### European Parliament — co-legislator
-- **Stage:** Pre-referral — procedure file open, no committee referral, no rapporteur
-- **Latest act:** Procedure file opened — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) · pre-proposal [EPRS briefing](sources/README.md) (Dec 2025)
-- **Owner:** Not yet assigned (ITRE expected as lead committee — verify at referral)
+- **Stage:** Pre-referral — procedure file open; committee referral and lead rapporteur "pending final decision on the referral"; an **ITRE shadow rapporteur is now named**
+- **Latest act:** OEIL procedure file now lists **Alexandra Geese (Greens/EFA, DE) as ITRE shadow rapporteur** (+ two 09/06/2026 transparency meetings: Geese × Bitkom, Geese × Nscale) — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) · pre-proposal [EPRS briefing](sources/README.md) (Dec 2025)
+- **Owner:** Lead not yet assigned; **ITRE is the prospective lead committee** (Greens/EFA shadow rapporteur already sits in ITRE) — verify at the formal referral
 - **Position:** None yet; early individual reactions only (see [stakeholders](docs/stakeholders.md) for MEP comments)
-- **Next:** Committee referral and rapporteur appointment
+- **Next:** Formal committee referral and lead rapporteur appointment
 
 ### Advisory bodies & Member States
 
@@ -55,7 +55,7 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 ## Next milestones to watch
 
 - [ ] **NL BNC-fiche** on CADA/Chips Act 2.0 (dossier 22112; expected ~mid-July 2026, ±6 weeks after presentation)
-- [ ] **EP committee referral + rapporteur** (ITRE expected)
+- [ ] **EP committee referral + lead rapporteur** (ITRE the prospective lead — Greens/EFA shadow rapporteur Alexandra Geese already named; referral still pending)
 - [ ] **Commission call for AI Gigafactories** (announced for July 2026)
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version
 - [ ] **EESC opinion** on CADA
