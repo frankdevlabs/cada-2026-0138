@@ -17,6 +17,7 @@
 
 | Date | Event | Source |
 |---|---|---|
+| 2026-03-17 | **EESC Bureau** decides to draw up an opinion on CADA (ref **INT/1126**), assigned to the INT section (Single Market, Production and Consumption); rapporteur **Miroslav HAJNOŠ** (Workers/GR II, SK) | [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) |
 | 2026-04-17 | **NL non-paper** "An Integrated Approach for the EU Tech Sovereignty Package" (tabled around the informal Telecom Council of 20 April; supports earlier DE + DK non-papers on CADA) | [register](sources/README.md) · [digest](docs/member-state-positions.md) |
 | 2026-04-23 | **Joint Roadmap "One Europe, One Market"** (EP/Council/Commission) names an indicative ~Q4 2027 target window for CADA | [register](sources/README.md) |
 | 2026-06-03 | **Commission adopts the European Technological Sovereignty Package**: CADA (COM(2026) 502 final, this file) + Chips Act 2.0 (COM(2026) 504, file 2026/0139 — tracked elsewhere) + EU Open Source Strategy + Strategic Roadmap for Digitalisation and AI in Energy; proposal transmitted to EP and Council | [register](sources/README.md) · [press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187) · [digest](docs/commission-proposal.md) |
@@ -31,4 +32,5 @@
 | ~mid-July 2026 | NL **BNC-fiche** on CADA / Chips Act 2.0 (dossier 22112) | standard ±6-week BNC cycle |
 | July 2026 | Commission **call for AI Gigafactories**; consultation on "European equity capacity at scale" | [press release](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187) |
 | H2 2026 | EP **committee referral + rapporteur** (ITRE expected); first Council working-party examinations (Irish Presidency from 1 July 2026) | OLP practice |
+| 23–24 Sep 2026 | **EESC plenary 608** — scheduled adoption of the CADA opinion (INT/1126, rapporteur Hajnoš) | [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) |
 | ~Q4 2027 | Indicative **political-agreement window** for CADA per the Joint Roadmap — political planning, **not** a legal deadline | [register](sources/README.md) |
