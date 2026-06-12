@@ -7,9 +7,13 @@
 
 - **NLdigital** — broadly positive on the package; concerns on financing, bureaucracy/fragmentation
   and feasibility ([Computable round-up](https://www.computable.nl/2026/06/04/techwereld-vrij-positief-over-europese-pakket-voor-digitale-soevereiniteit/)).
-- **Dutch Data Center Association (DDA)** — supportive of the capacity ambition, but flags the contrast
-  between strategic-autonomy goals and growing regulatory burden, long permitting tracks and grid
-  congestion in NL.
+- **Dutch Data Center Association (DDA)** — [first reaction to the EU Sovereign Package](https://www.dutchdatacenters.nl/nieuws/eerste-reactie-dda-op-eu-sovereign-package/)
+  (2026-06-04): supportive of the capacity ambition but warns against oversimplification — sovereignty is
+  layered and full EU/non-EU separation is "rarely realistic", so organisations must make their own
+  risk-informed choices (a nuance relevant to the four-level [sovereignty framework](provisions/sovereignty-framework.md)).
+  Flags the contrast between strategic-autonomy goals and growing regulatory burden, long permitting tracks
+  and grid congestion in NL — the bottlenecks the [data-centre acceleration zones](provisions/data-centre-acceleration-zones.md)
+  are meant to ease.
 
 ## Members of the European Parliament (early individual reactions)
 
