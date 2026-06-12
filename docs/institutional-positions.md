@@ -20,7 +20,8 @@ Commission proposal itself. The first formal position signals to watch (see
   [`member-state-positions.md`](member-state-positions.md).
 - **Parliament** — committee referral and rapporteur appointment; the pre-proposal
   [EPRS briefing](../sources/README.md) (Dec 2025) sketches the option space Parliament was given.
-- **EESC** — opinion in preparation
+- **EESC** — opinion in preparation (INT/1126; rapporteur Miroslav HAJNOŠ, Workers/GR II, SK,
+  INT section); scheduled for plenary 608 (23–24 Sep 2026)
   ([opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act)).
 
 Early friction lines between the institutions-to-be are catalogued in

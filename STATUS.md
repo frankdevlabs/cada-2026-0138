@@ -48,7 +48,7 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 
 | Body | Latest act (date) | Position |
 |---|---|---|
-| **EESC** | Opinion in preparation — [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) | Not yet adopted |
+| **EESC** | Opinion in preparation (INT/1126) — rapporteur **Miroslav HAJNOŠ** (Workers/GR II, SK), INT section; [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) | Not yet adopted — plenary 608 (23–24 Sep 2026) |
 | **CoR** | Mandatory consultee (cited in the preamble); no opinion scheduled yet | — |
 | **Member States** | NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026, supporting earlier DE + DK non-papers on CADA) — [register](sources/README.md) | NL: organise the package around a "Sovereign Tech Stack"; sovereignty is "not binary" — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
 
@@ -58,7 +58,7 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 - [ ] **EP committee referral + lead rapporteur** (ITRE the prospective lead — Greens/EFA shadow rapporteur Alexandra Geese already named; referral still pending)
 - [ ] **Commission call for AI Gigafactories** (announced for July 2026)
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version
-- [ ] **EESC opinion** on CADA
+- [ ] **EESC opinion** on CADA (INT/1126; rapporteur Hajnoš) — plenary 608, 23–24 Sep 2026
 - [ ] Indicative political-agreement window **~Q4 2027** per the Joint Roadmap "One Europe, One Market" — political planning, not a legal deadline
 - [ ] Watch-item: the **assurance-level criteria (Annex II / Arts 16–28)** — analyses expect pressure in negotiation from Member States with established hyperscaler relationships
 
