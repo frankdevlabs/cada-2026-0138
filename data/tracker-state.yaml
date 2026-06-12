@@ -5,62 +5,63 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: "2026-06-11T11:52:12Z"
+last_run: "2026-06-12T11:51:11Z"
 sources:
   T1-01:
-    last_seen_hash: "sha256:8416d1e3e526362fb873feadaea981acfc8fe97a8bdd2dcff42e07610a299aae"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:af75bcbd19f558651fa1e4086f0c7c831bf95d6f375a908b4d5e393010bc5f26"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-02:
     last_seen_hash: "sha256:e7d61dd7f19b272a8b30c9e655e89308131b8c725b1500e252911e8d61d4a712"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-03:
     last_seen_hash: null
     last_seen_at: null
     status: "unreachable"
-    unreachable_reason: "AWS WAF challenge page (unreachable-by-design)"
-    consecutive_failures: 2
+    unreachable_reason: "AWS WAF challenge page (HTTP 202, unreachable-by-design)"
+    consecutive_failures: 3
     first_failed_at: "2026-06-10T13:28:07Z"
   T1-04:
     last_seen_hash: "sha256:75e74ef5354a728cae9de3f557cfd28a09e68d519a5c77552bcb3cf20910d932"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-05:
-    last_seen_hash: "sha256:30084c4fb44d5eccde9434d309f31fe8169649091ba4d3c9caca0f57e2895558"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:833ed624cca492cf277794306915e6544235f0a074c35d76dd14107e89fa7271"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-06:
-    last_seen_hash: "sha256:9dd87168719eaa05e4a0425601bb6c8919e5777df9c2001106b02a72bcddd8c9"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:bbc952f60a406457ad92176c5db0e5fb484f16e4b7c21d97022c0af161e1feeb"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-07:
-    last_seen_hash: "sha256:58992088d1093f2ffbfe1f525e5957bdc4c7ad3366254fd64884f387aadb479b"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:5307f60b50dcd1c3e0872f3e07187f56f6bcf2a4dcfe586f9b13c6360c1115f6"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-08:
-    last_seen_hash: "sha256:2ac8009a4a6106d4d5505ebe867910baeb6631198507c228d67153ca116bb836"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:e21d434bcc496654b894142e84070511b5294824863496486bc6522e923588b4"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T1-09:
     last_seen_hash: "sha256:4d1aa39e7d6150d746b488339a3b46b3357cc43ae630f0ac73ab18c8a78e3cb7"
     last_seen_at: "2026-06-10T13:28:07Z"
     status: "unreachable"
     unreachable_reason: "TLS: unable to get local issuer certificate (HTTP 000, retried once)"
-    consecutive_failures: 1
+    consecutive_failures: 2
     first_failed_at: "2026-06-11T11:52:12Z"
   T1-10:
     last_seen_hash: "sha256:d3b5017a91611a9071b906d0d2c2a80f28573924a514790619048403bdfb4f2b"
     last_seen_at: "2026-06-10T13:28:07Z"
     status: "unreachable"
     unreachable_reason: "TLS: unable to get local issuer certificate (HTTP 000, retried once)"
-    consecutive_failures: 1
+    consecutive_failures: 2
     first_failed_at: "2026-06-11T11:52:12Z"
   T1-11:
-    last_seen_hash: "sha256:c561156a412ec5cf9a0adcc0165cfd4d1a01f2d415fc351c364009f9b8d7ccec"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:194a14c995c127b6731a3f52db1f8435ddf14afd3300df40337a1ae274b26ffd"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T2-01:
     last_seen_hash: "sha256:69eae95fb3c0dc8c9bf05ca8ea183014104ab5fe476f784a6ac3c245d7044f01"
     last_seen_at: "2026-06-11T11:52:12Z"
+    note: "2026-06-12: /feed/ returned HTML app shell (0 RSS items) — treated as transient, hash not updated"
   T2-02:
-    last_seen_hash: "sha256:bb8147495fa38d2ab962b8e0c7418deb81f8bbc9255b92a9c2519029d25d73bf"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:8fdbb00920e7de4a5c9c36c691d896d658814ea7b6e426b119d61fc9ed5464bb"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T2-03:
-    last_seen_hash: "sha256:9eed51503e24d88cac6ed58a0c1ce70d6338b3045cbc03bb4002771408ebb884"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:0602abc78dac15ff9422c706a7cd0090ebe76f68f013b1d30cf14cbda935e370"
+    last_seen_at: "2026-06-12T11:51:11Z"
   T2-04:
-    last_seen_hash: "sha256:63c0b8cb12cab9dda6bdb2c69a3873926ceb6f0e4c001d86df6e346700d04367"
-    last_seen_at: "2026-06-11T11:52:12Z"
+    last_seen_hash: "sha256:59f3f785fc75feaa21da3c9e817c2e2baa5abbb7d555d949d8ca931187f238a1"
+    last_seen_at: "2026-06-12T11:51:11Z"
