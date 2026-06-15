@@ -17,4 +17,5 @@ exclude = [
   "^https://www\\.computable\\.nl",            # bot-blocks / paywalled press host
   "^https://ieu-monitoring\\.com",             # slow host; times out for the CI link checker (mirror copies)
   "^https://www\\.eerstekamer\\.nl",         # slow host; times out for the CI link checker
+  "^https://zoek\\.officielebekendmakingen\\.nl",   # RSS watch-feed (Kamervragen); not asserted as a live page link
 ]

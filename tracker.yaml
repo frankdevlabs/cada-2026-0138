@@ -158,6 +158,18 @@ watchlist:
       label: "digitaleoverheid.nl — news (NL digital-government signals)"
       url: "https://www.digitaleoverheid.nl/nieuws/"
       affects: [docs/member-state-positions.md, docs/stakeholders.md]
+    T1-12:
+      tier: T1
+      kind: institutional
+      label: "officielebekendmakingen.nl — Kamervragen (vragen + Aanhangsel) cloud/AI-verordening"
+      url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(((w.publicatienaam==%22Kamervragen+(Aanhangsel)%22)or(w.publicatienaam==%22Kamervragen+zonder+antwoord%22)))and((cql.textAndIndexes=%22cloudverordening%22)or((cql.textAndIndexes=%22cloud%22)and(cql.textAndIndexes=%22AI%22)and(cql.textAndIndexes=%22verordening%22)))&svel=Publicatiedatum&svol=Aflopend"
+      affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+      notes: >-
+        RSS, newest-first. Tweede Kamer Kamervragen on an EU cloud/AI development regulation (CADA). This is
+        a brand-new 2026 file: the feed is near-empty and the broad NL cloud-sovereignty / US-vendor-dependency
+        debate (DigiD, Microsoft/Azure, Nexperia) is OUT of scope — only a Kamervraag about the EU CADA
+        proposal itself (cloud-and-AI-development regulation) is a genuine hit. kv-tk-…=question,
+        ah-tk-…=answer. Filter on the <description> line.
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
