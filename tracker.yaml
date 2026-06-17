@@ -170,6 +170,20 @@ watchlist:
         debate (DigiD, Microsoft/Azure, Nexperia) is OUT of scope — only a Kamervraag about the EU CADA
         proposal itself (cloud-and-AI-development regulation) is a genuine hit. kv-tk-…=question,
         ah-tk-…=answer. Filter on the <description> line.
+    T1-13:
+      tier: T1
+      kind: institutional
+      label: "EP ITRE committee — latest documents (draft opinions/reports, tabled amendments)"
+      url: "https://www.europarl.europa.eu/committees/en/itre/documents/latest-documents"
+      affects: [extracts/parliament/, docs/provisions/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+      notes: >-
+        ITRE is the EXPECTED lead committee, but this file is PRE-REFERRAL — no committee referral or
+        rapporteur has been assigned yet, so watch for the referral + rapporteur appointment first.
+        Before integrating any hit, confirm the document concerns THIS file (2026/0138), not the
+        keep-apart sibling Chips Act 2.0 (2026/0139), which ITRE also handles. doceo bot-blocks the
+        operative text (HTTP 202 / AWS-WAF) to non-browser clients — confirm existence/metadata here
+        but obtain the PDF via a browser download or non-WAF mirror. Hand a confirmed committee text to
+        the resolve-tracker-issue `parliament-text` playbook (-> transcribe-parliament-extract).
     # --- Tier 2: stakeholder / analysis -------------------------------------
     T2-01:
       tier: T2
