@@ -39,7 +39,7 @@ while Parliament has not yet referred it to committee — no co-legislator posit
 
 ### European Parliament — co-legislator
 - **Stage:** Pre-referral — procedure file open; committee referral and lead rapporteur "pending final decision on the referral"; an **ITRE shadow rapporteur is now named**
-- **Latest act:** OEIL procedure file now lists **Alexandra Geese (Greens/EFA, DE) as ITRE shadow rapporteur** (+ two 09/06/2026 transparency meetings: Geese × Bitkom, Geese × Nscale) — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) · pre-proposal [EPRS briefing](sources/README.md) (Dec 2025)
+- **Latest act:** OEIL procedure file now lists **Alexandra Geese (Greens/EFA, DE) as ITRE shadow rapporteur** (transparency meetings now logged: Geese × Bitkom and Geese × Nscale on 09/06/2026; plus a 02/06/2026 meeting **Ballarín Cereza (S&D, ES; OEIL "Other Member")** × BSA | The Software Alliance — disclosure only, no procedural step) — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0138(COD)) · pre-proposal [EPRS briefing](sources/README.md) (Dec 2025)
 - **Owner:** Lead not yet assigned; **ITRE is the prospective lead committee** (Greens/EFA shadow rapporteur already sits in ITRE) — verify at the formal referral
 - **Position:** None yet; early individual reactions only (see [stakeholders](docs/stakeholders.md) for MEP comments)
 - **Next:** Formal committee referral and lead rapporteur appointment
