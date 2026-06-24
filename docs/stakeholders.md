@@ -14,6 +14,12 @@
   Flags the contrast between strategic-autonomy goals and growing regulatory burden, long permitting tracks
   and grid congestion in NL — the bottlenecks the [data-centre acceleration zones](provisions/data-centre-acceleration-zones.md)
   are meant to ease.
+  A follow-up piece, [*"Datacenters zoeken balans tussen soevereiniteit en open infrastructuur"*](https://www.dutchdatacenters.nl/nieuws/datacenters-zoeken-balans-tussen-soevereiniteit-en-open-infrastructuur/)
+  (2026-06-24, director Stijn Grove), elaborates the same nuance from the practitioner side — *strategic autonomy ≠
+  autarky*, full EU/non-EU separation "rarely realistic", and the Netherlands' interconnectedness is itself a
+  resilience strength — so infrastructure choices should be customer- and risk-driven, not ideology-driven.
+  (This article does **not** name CADA, but it bears directly on how the four-level
+  [sovereignty framework](provisions/sovereignty-framework.md) will land with NL industry.)
 
 ## Members of the European Parliament (early individual reactions)
 
