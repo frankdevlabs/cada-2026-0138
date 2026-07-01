@@ -189,8 +189,13 @@ watchlist:
       tier: T2
       kind: stakeholder
       label: "Tech Policy Press — feed"
-      url: "https://www.techpolicy.press/feed/"
+      url: "https://www.techpolicy.press/rss/feed.xml"
       affects: [docs/stakeholders.md, docs/fault-lines.md]
+      notes: >-
+        Re-pointed 2026-06-29 (issue #25): the WordPress `/feed/` endpoint was retired in the site's
+        Next.js migration and now returns the SPA HTML shell (0 RSS items). The live feed is the
+        autodiscovery `<link>` target `/rss/feed.xml` (valid RSS 2.0). Podcast-only feed:
+        https://feeds.captivate.fm/techpolicypress/.
     T2-02:
       tier: T2
       kind: stakeholder
