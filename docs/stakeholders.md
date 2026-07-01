@@ -14,6 +14,13 @@
   Flags the contrast between strategic-autonomy goals and growing regulatory burden, long permitting tracks
   and grid congestion in NL — the bottlenecks the [data-centre acceleration zones](provisions/data-centre-acceleration-zones.md)
   are meant to ease.
+  An annual-report press release, [*"Stroomtekort wordt groeitekort"*](https://www.dutchdatacenters.nl/nieuws/stroomtekort-wordt-groeitekort-nederlandse-datacenters-bieden-energiesysteem-een-uitweg-uit-netcongestie/)
+  (2026-06-09), frames the sector explicitly against CADA's tripling-of-capacity objective (a *verdrievoudiging*
+  of European data-centre capacity within five to seven years) and warns the Netherlands "dreigt achterop te
+  raken" behind faster markets (Spain, France, Germany) — the binding constraint being grid congestion and
+  permitting lead times (risen from ~10 weeks in 2016 to ~4.5 years), which the
+  [data-centre acceleration zones](provisions/data-centre-acceleration-zones.md) are meant to ease; DDA positions
+  data-centres as *part of the solution* to net-congestion (flexible connections, battery storage, heat reuse).
   A follow-up piece, [*"Datacenters zoeken balans tussen soevereiniteit en open infrastructuur"*](https://www.dutchdatacenters.nl/nieuws/datacenters-zoeken-balans-tussen-soevereiniteit-en-open-infrastructuur/)
   (2026-06-24, director Stijn Grove), elaborates the same nuance from the practitioner side — *strategic autonomy ≠
   autarky*, full EU/non-EU separation "rarely realistic", and the Netherlands' interconnectedness is itself a
