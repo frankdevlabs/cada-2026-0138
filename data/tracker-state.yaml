@@ -5,84 +5,84 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: "2026-07-02T11:49:26Z"
+last_run: "2026-07-03T11:50:23Z"
 sources:
   T1-01:
-    last_seen_hash: "sha256:0a74df11968c3a5d00796e3048319c1ba0091b4aa8d432e01d1a4b0076d3d1fc"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; HTTP 200 (52k). Substance unchanged — sole key event still 03/06/2026 'Legislative proposal published' (COM(2026)0502); Committee responsible Rapporteur still 'Appointed — Pending final decision on the referral' (pre-referral). ITRE lines are the rotating interest-representative/transparency-meeting block (Bitkom, GEESE shadow-rapporteur 09/06, WARBORN 23/06 SUSE, BALLARÍN 02/06 BSA, Nscale). Drift = that rotating block. No new key event, no referral/rapporteur decision; not flagged."
+    last_seen_hash: "sha256:43aa4d63bfa03cd82ac842bbbadab87240a0e1afb83c73f134c2be025ae9cfc0"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; HTTP 200 (92k). Substance unchanged — sole key event still 03/06/2026 'Legislative proposal published' (COM(2026)0502); Committee responsible Rapporteur still 'Appointed — Pending final decision on the referral' (pre-referral). ITRE lines are the rotating interest-representative/transparency-meeting block (GEESE 09/06 Bitkom + Nscale, WARBORN 23/06 SUSE, BALLARÍN 02/06 BSA). Drift = that rotating block. No new key event, no referral/rapporteur decision; not flagged."
   T1-02:
     last_seen_hash: "sha256:e7d61dd7f19b272a8b30c9e655e89308131b8c725b1500e252911e8d61d4a712"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash IDENTICAL to last-seen (no change). Cellar OBJECT notice for COM(2026) 502; no ST reference, no new manifestation, no new procedure event. Still watching for a first ST compromise text."
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash IDENTICAL to last-seen (no change). Cellar OBJECT notice for COM(2026) 502; no ST reference, no new manifestation, no new procedure event. Still watching for a first ST compromise text."
   T1-03:
     last_seen_hash: null
     last_seen_at: null
     status: "paused"
     paused_at: "2026-06-24T12:05:00Z"
     unreachable_reason: "AWS WAF challenge page (HTTP 202, unreachable-by-design)"
-    consecutive_failures: 17
+    consecutive_failures: 18
     first_failed_at: "2026-06-10T13:28:07Z"
-    last_failed_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: remains AUTO-PAUSED (since 2026-06-24, 14-day rule). Polled defensively, HTTP 202 WAF challenge page again (failure #17). Skipped for state purposes; resume only after manual intervention. History coverage continues via T1-01/T1-02. Logged in weekly health issue #25."
+    last_failed_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: remains AUTO-PAUSED (since 2026-06-24, 14-day rule). Polled defensively, HTTP 202 WAF challenge page again (failure #18). Skipped for state purposes; resume only after manual intervention. History coverage continues via T1-01/T1-02. Logged on weekly health issue #25."
   T1-04:
     last_seen_hash: "sha256:75e74ef5354a728cae9de3f557cfd28a09e68d519a5c77552bcb3cf20910d932"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: text hash IDENTICAL to last-seen (no change). PDF still the unchanged ST-10104 cover note (COM(2026) 502, 4 June 2026). Highest-priority Council stream quiet; no new ST compromise text."
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: text hash IDENTICAL to last-seen (no change). PDF still the unchanged ST-10104 cover note (COM(2026) 502, 4 June 2026). Highest-priority Council stream quiet; no new ST compromise text."
   T1-05:
-    last_seen_hash: "sha256:1e286df65af15fba9b639c4bc7457f107feb62aed5a937586fb1d3ded8cfccec"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; 'Last update 3 June 2026' unchanged; no Documents/Download change — rotating related-content block, not a new document. Not flagged."
+    last_seen_hash: "sha256:e517a9eb1d73abfbbeb45d735cfb1ce600b77c185de6909e8b877acd7c87c2bf"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; 'Last update 3 June 2026' unchanged; no Documents/Download change — rotating related-content block, not a new document. Not flagged."
   T1-06:
-    last_seen_hash: "sha256:8821b37d9b5a395980e290ad5d919a0c8ed4602bf681a39d3c6f90bc96be5705"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash IDENTICAL to last-seen (no change). Download list unchanged — COM(2026) 502, SWD Parts 1/2, SWD Impact-Assessment Summary; 'Last update 8 June 2026'. No new document/corrigendum."
+    last_seen_hash: "sha256:a8566fe1795cb03f1bdffde78193466fbb9ab5aef0033d85ffd7f68cabc02228"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted from prior identical baseline; download list UNCHANGED (COM(2026) 502 proposal + Annexes, SWD(2026) 502 Parts 1/2, SWD Impact-Assessment Summary; 'Last update 8 June 2026'). Drift = rotating 'Related content' block. No new document/corrigendum; not flagged."
   T1-07:
     last_seen_hash: "sha256:e1a29a5cf0878b8492b7bdff140220f45cc3409b75a28891cda1c67847eb3efa"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; carriage advanced to 'As of 20/06/2026' and a new monthly 'Document version: 20/06/2026' snapshot appeared in the version dropdown (routine monthly archival — prior snapshots 22/05, 20/04, 20/03, ...). BUT 'Latest changes' still 'Initial legislative proposal published', Status still 'Announced', no rapporteur, narrative unchanged (3 June 2026 proposal). Routine carriage refresh; no new substantive milestone. Not flagged."
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash IDENTICAL to last-seen (no change). Carriage still 'As of 20/06/2026'; 'Latest changes' still 'Initial legislative proposal published', Status 'Announced', no rapporteur. No new milestone."
   T1-08:
-    last_seen_hash: "sha256:7ba8159a9f6e28b90313bdf0ff851021e8315c2bc64783720efc58e1a65c1747"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted (rotating plenary/events blocks); EESC opinion still INT/1126, rapporteur Miroslav HAJNOŠ, status 'Ongoing (updated 20/03/2026)', Plenary session 608 (Sep 23-24 2026) — adoption still future. No new adoption date. Non-substantive drift; not flagged."
+    last_seen_hash: "sha256:22097d075455626274a874e3ba5663fc14efc098abb2dba85961e8ce64b56f32"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted (rotating plenary/events blocks); EESC opinion still INT/1126, rapporteur Miroslav HAJNOŠ, status 'Ongoing (updated 20/03/2026)', Plenary session 608 (Sep 23-24 2026) — adoption still future. No new adoption date. Non-substantive drift; not flagged."
   T1-09:
-    last_seen_hash: "sha256:d8598d58dba24258afa8ac7d23635ed04ecb1058b6b160d95cea93a3d0bd7088"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; HTTP 200. Full-text scan of result rows found NO CADA scope keyword (CADA, Cloud and AI, 2026/0138, cloudsoevereiniteit, EuroCloud, datacenter). BNC-fiche on CADA still outstanding (expected ~mid-July 2026). Not a hit."
+    last_seen_hash: "sha256:89a99ca9f70c53eed20f9ba424130b23411d336968b1ad7d371ececb8c613ff4"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; HTTP 200. Full-text scan found NO CADA scope keyword (CADA, Cloud and AI, 2026/0138, cloudsoevereiniteit, EuroCloud, datacenter, COM(2026) 502, BNC-fiche). BNC-fiche on CADA still outstanding (expected ~mid-July 2026). Not a hit."
   T1-10:
-    last_seen_hash: "sha256:58ca657ddda2973e44350a5502f6447e85d1172a42f0fd696ac67d72ff18719c"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; HTTP 200. Newest TTE (Telecomraad) rows carry NO CADA scope keyword (no cloud/datacenter/CADA). Not a hit."
+    last_seen_hash: "sha256:c4b7046ba02a50098f418bf8dcdbbccc64c1dc45dad6f06639c47f522830d351"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; HTTP 200. TTE (Telecomraad) rows carry NO CADA scope keyword (no cloud/datacenter/CADA). Not a hit."
   T1-11:
-    last_seen_hash: "sha256:80ab5d33ba045fdcb303493abeb53cec4e261c36219999a05de5e8e4e098e044"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted; newest item now 'Overheid zet in op eigen, veilige soevereine cloud' atop 'Voorstel cyberwetten naar Eerste Kamer'. All top items are DOMESTIC Rijksoverheid cyber/digital-autonomy/sovereign-cloud pieces — no CADA / 2026/0138 / Cloud Sovereignty Framework / EU-regulation reference. Per the Dutch scope rule, domestic 'soevereine cloud / digitale autonomie' alone is out of scope. Not a hit."
+    last_seen_hash: "sha256:f3d07d26624bc6ea8d01cc4fa0ab213b490b178e1ba9ad6c4579928b0d4ea5c9"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; newest item now 'Digitalisering vraagt om richting, ruimte en leiderschap' atop 'Overheid zet in op eigen, veilige soevereine cloud'. All top items are DOMESTIC Rijksoverheid digital-autonomy/sovereign-cloud pieces — no CADA / 2026/0138 / Cloud Sovereignty Framework / EU-regulation reference. Per the Dutch scope rule, domestic 'soevereine cloud / digitale autonomie' alone is out of scope. Not a hit."
   T1-12:
     last_seen_hash: "sha256:8ad2259b61249a3e94b510a97269453c6209035bf38ea7e86059a98d5e986e36"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: HTTP 200, 5 items, hash IDENTICAL to last-seen (no change). Content unchanged generic cloud/AI Kamervragen (newest ah-1249295, 26 May 2026) — all predate CADA (03/06/2026), out of scope per the brand-new-file rule. Not a hit."
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: HTTP 200, hash IDENTICAL to last-seen (no change). Content unchanged generic cloud/AI Kamervragen (newest ah-1249295, 26 May 2026) — all predate CADA (03/06/2026), out of scope per the brand-new-file rule. Not a hit."
   T1-13:
     seen_refs: []
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: ep_committee_docs.py ITRE --match-title 'cloud and ai development act' returned [] (exit 0): file still pre-referral, no in-scope ITRE 2026/0138 documents yet. Per-document detection keyed on pe_ref."
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: ep_committee_docs.py ITRE --match-title 'cloud and ai development act' returned [] (exit 0): file still pre-referral, no in-scope ITRE 2026/0138 documents yet. Per-document detection keyed on pe_ref."
   T2-01:
     last_seen_hash: "sha256:44bf53ab0a9d51c589e0dcb27706531c177888262aef896b716c672f3afb71be"
     last_seen_at: "2026-06-23T12:05:00Z"
     status: "transient-error"
     unreachable_reason: "HTTP 200 but Next.js HTML app shell returned instead of RSS (0 <item>s)"
-    consecutive_failures: 7
+    consecutive_failures: 8
     first_failed_at: "2026-06-24T12:05:00Z"
-    last_failed_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: still a Next.js SPA HTML shell (0 items), not RSS — consecutive failure #7. Hash NOT updated (last-good 44bf53ab retained). Feed URL likely moved and needs re-pointing. Logged in weekly health issue #25."
+    last_failed_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: still a Next.js SPA HTML shell (0 items), not RSS — consecutive failure #8. Hash NOT updated (last-good 44bf53ab retained). Feed URL likely moved and needs re-pointing (triage #26 not yet applied on the polling side). Logged on weekly health issue #25."
   T2-02:
-    last_seen_hash: "sha256:32dc10f76de975b6cd237a580f75eb1f1f3f0a29a9e18f1395561eea4c8610d5"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted but no NEW in-scope item. Only 'soevereiniteit' body hit is the already-flagged 'Datacenters zoeken balans tussen soevereiniteit' (24 Jun, issue #17, closed 24 Jun); remaining links are static nav pages. No CADA / 2026/0138 / acceleration-zone match. Drift = rotating block + already-flagged item; not a new hit."
+    last_seen_hash: "sha256:c2f4d3e923b007b83283381a2a02b1eb749c038949cc58fac4b997eab4fd56a2"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted but no NEW in-scope item. Only 'soevereiniteit' body hit is the already-flagged 'Datacenters zoeken balans tussen soevereiniteit' (24 Jun, issue #17, closed 24 Jun); new top items ('Stroomtekort wordt groeitekort', 'Nederlandse digitale economie groeit verder') are domestic grid/economy pieces with no CADA / 2026/0138 / acceleration-zone / EU-capacity reference. Drift = rotating block + already-flagged item; not a new hit."
   T2-03:
-    last_seen_hash: "sha256:5bc697b46797a948b8742d7a4463576b07b2da1f1a6d443194877d2dab7c4170"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash IDENTICAL to last-seen (no change). No item matched the CADA/cloud/soevereiniteit/Tech-Sovereignty filter. Not a hit."
+    last_seen_hash: "sha256:4ad3ea68d2960a16eaba480990d7088ee74bcf786850e378875fdd4b21470d99"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted; no item matched the CADA/cloud/soevereiniteit/Tech-Sovereignty filter. New items are Cyberbeveiligingswet/CRA/hacks/Spotify — all off-topic. Not a hit."
   T2-04:
-    last_seen_hash: "sha256:0a209c281fdbcb4ccfc08d736919fa256fdd764a70d96eab14738d68fea97a9d"
-    last_seen_at: "2026-07-02T11:49:26Z"
-    note: "2026-07-02: hash drifted (feed rotation); 50 items. NO in-scope keyword match on titles/descriptions (CADA/Cloud and AI development/2026/0138/tech sovereignty/Telecom Council/EuroCloud/cloud sovereignty). Only tangential items are a Canada-Germany semiconductor-cooperation piece (off-topic) and several non-Telecom Councils (Social Policy, MFF cohesion, wildfire, automotive, farmers). No Telecom/TTE Council cloud outcome. Not a hit."
+    last_seen_hash: "sha256:99b9db4983adca6600a19b1128280fc50359023eb4f203e1537c2af7f77d2338"
+    last_seen_at: "2026-07-03T11:50:23Z"
+    note: "2026-07-03: hash drifted (feed rotation); 50 items. Two 'tech sovereignty' matches are FALSE POSITIVES — Commissioner Henna Virkkunen's job title ('EVP for Tech Sovereignty, Security and Democracy') quoted in unrelated items (green-labelling enforcement; Ukraine drone procurement). No CADA / 2026/0138 / Telecom-Council / EuroCloud / cloud-sovereignty match. No Telecom/TTE Council cloud outcome. Not a hit."
