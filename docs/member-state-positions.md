@@ -19,14 +19,45 @@ tabled around the informal Telecom Council of 20 April 2026) —
 - For CADA specifically: focus on a sovereign and sustainable EU cloud/AI ecosystem **and** actively
   creating markets for trustworthy and open technologies.
 
+**BNC-fiche — Cloud & AI Development Act** (Kamerstuk **22112, nr. 4395**; letter of the minister van
+Buitenlandse Zaken dated **26 June 2026**, published 2 July 2026; eerstverantwoordelijk ministerie EZK) —
+[register](../sources/README.md#member-state-positions) ·
+[kst-1258871](https://zoek.officielebekendmakingen.nl/kst-1258871.html) ·
+[committed PDF](../sources/member-states/NL-BNC-FICHE-22112-4395_fiche-cloud-ai-development-act_2026-07-02.pdf)
+
+The cabinet's formal first position on CADA. Overall verdicts: **competence "deels positief, deels
+negatief"** (accepts Arts 114 + 173(3) TFEU as bases but flags that Art 173(3) excludes harmonisation);
+**subsidiarity positive**; **proportionality "positief met kanttekeningen"**. Substance:
+
+- **Welcomes** the package's aims — accelerating datacenter capacity, geographic spread, energy-efficient
+  compute, the **sovereignty criteria** for public-sector cloud (incl. the tiered risk-based assurance
+  approach, which it expects a majority of Member States to support), the procurement award criterion
+  weighing a bid's contribution to EU development, and open source.
+- **Acceleration zones:** doubts the proportionality of the designation duty and its deadlines (zone
+  designation within 6 months; 12-month permit cap) for Member States that already have adequate capacity
+  and functioning permitting (i.e. NL); the trigger condition ("datacentercapaciteit … wordt uitgerold")
+  is unclear, and the proposal lacks any mechanism actually securing **geographic spread** — no
+  obligations on low-capacity Member States, risking burdens on already-concentrated ones. NL context:
+  the hyperscale-datacenter instructieregel (in force 1 Jan 2024) *prohibits* new hyperscale datacenters
+  outside two designated areas.
+- **Central information point:** legal effects go further than necessary — too little room to reuse
+  existing national structures.
+- **Commission override of assurance levels:** the power to set aside a Member State's assigned cloud
+  assurance level may exceed necessity — uniform criteria and methodology already deliver the intended
+  harmonisation.
+- **AI objectives:** questions whether a regulation is the right instrument, how the **AI Board** (composed
+  of Member-State delegates) can "advise and support" Member States, and what the financial implications are.
+- **Negotiating line:** will press for a "meer gerichte en evenredige uitwerking" of these obligations.
+- **Krachtenveld:** majority of Member States expected to back the objectives; the EP is expected to push
+  for *more* far-reaching measures; lead committee/rapporteur not yet known.
+
 **National context:**
 
 - The cabinet now has a State Secretary for Digital Economy and Sovereignty (W.J.M. Aerdts, EZ);
   digital sovereignty is politically live in the Tweede Kamer (debates on dependence on US cloud for
   DigiD, Belastingdienst, etc.; committee: [Digitale Zaken](https://www.tweedekamer.nl/kamerleden_en_commissies/commissies/diza)).
-- A formal **BNC-fiche** (dossier series 22112) on CADA/Chips Act 2.0 had not appeared as of
-  10 June 2026; expected ~6 weeks after the proposal (≈ mid-July 2026) — tracked via the
-  [watchlist](../tracker.yaml).
+  A DiZa written consultation treating the CADA fiche (agenda item 1, alongside the Digital-Omnibus item)
+  is scheduled for 29 Sep 2026, ahead of the informal Telecom Council of 12–13 Oct 2026.
 - The annotated agenda for the formal Telecom Council of 9 June 2026 (Kamerstuk 21501-33) predates the
   package presentation and contains no CADA appraisal.
 

@@ -51,11 +51,11 @@ committee — no co-legislator position of any kind exists yet.
 |---|---|---|
 | **EESC** | Opinion in preparation (INT/1126) — rapporteur **Miroslav HAJNOŠ** (Workers/GR II, SK), INT section; [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) | Not yet adopted — plenary 608 (23–24 Sep 2026) |
 | **CoR** | Mandatory consultee (cited in the preamble); no opinion scheduled yet | — |
-| **Member States** | NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026, supporting earlier DE + DK non-papers on CADA) — [register](sources/README.md) | NL: organise the package around a "Sovereign Tech Stack"; sovereignty is "not binary" — [`docs/member-state-positions.md`](docs/member-state-positions.md) |
+| **Member States** | **NL BNC-fiche on CADA** (26 Jun 2026, published 2 Jul — Kamerstuk 22112, nr. 4395) — [register](sources/README.md#member-state-positions); earlier: NL non-paper "An Integrated Approach for the EU Tech Sovereignty Package" (17 Apr 2026, supporting earlier DE + DK non-papers on CADA) | NL formal position: subsidiarity positive, **proportionality "positief met kanttekeningen"** — welcomes compute/sovereignty aims but contests the acceleration-zone designation duty + deadlines, the missing geographic-spread mechanism, the central-information-point constraints and the Commission override of national cloud assurance levels; wants a "meer gerichte en evenredige uitwerking" — [`docs/member-state-positions.md`](docs/member-state-positions.md#netherlands) |
 
 ## Next milestones to watch
 
-- [ ] **NL BNC-fiche** on CADA/Chips Act 2.0 (dossier 22112; expected ~mid-July 2026, ±6 weeks after presentation)
+- [x] **NL BNC-fiche on CADA** — *landed 26 Jun 2026* (published 2 Jul; Kamerstuk 22112, nr. 4395 — [digest](docs/member-state-positions.md#netherlands)). **Now watch:** the DiZa written consultation treating the fiche (29 Sep 2026) and the separate Chips Act 2.0 fiche (still outstanding, tracked in the sibling repo)
 - [ ] **EP committee referral + lead rapporteur** (ITRE the prospective lead — Greens/EFA shadow rapporteur Alexandra Geese already named; referral still pending)
 - [ ] **Commission call for AI Gigafactories** (announced for July 2026)
 - [ ] **First Presidency compromise text** in the Council (Irish Presidency, H2 2026) — would trigger the first `extracts/council/` version

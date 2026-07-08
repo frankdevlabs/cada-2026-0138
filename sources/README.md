@@ -43,3 +43,4 @@
 | ID | Title | Date | Hosted file | Provenance |
 |---|---|---|---|---|
 | `NL-NONPAPER-2026-04-17` | NL non-paper — "An Integrated Approach for the EU Tech Sovereignty Package" | 2026-04-17 | `sources/member-states/` | [Tweede Kamer 2026D18815](https://www.tweedekamer.nl/downloads/document?id=2026D18815) · [rijksoverheid.nl](https://www.rijksoverheid.nl/documenten/2026/04/20/nonpaperbythenetherlandsontheeutechsovereigntypackage) |
+| `NL-BNC-FICHE-22112-4395` | NL BNC-fiche — Cloud & AI Development Act (formal cabinet position) | 2026-06-26 | [`member-states/NL-BNC-FICHE-22112-4395_fiche-cloud-ai-development-act_2026-07-02.pdf`](member-states/NL-BNC-FICHE-22112-4395_fiche-cloud-ai-development-act_2026-07-02.pdf) | [kst-1258871](https://zoek.officielebekendmakingen.nl/kst-1258871.html) (Kamerstuk 22112, nr. 4395; published 2 Jul 2026) |

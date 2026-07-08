@@ -129,3 +129,29 @@ documents:
       (Kamerstuk series 21501-33; Tweede Kamer document 2026D18815). Argues for organising the
       package around a "Sovereign Tech Stack" with a demand–supply loop across the stack layers and
       open source as cross-cutting enabler; explicitly supports earlier DE and DK non-papers on CADA.
+
+  - id: NL-BNC-FICHE-22112-4395
+    title: "NL BNC-fiche — Cloud & AI Development Act (Kamerstuk 22112, nr. 4395)"
+    body: Netherlands
+    date: 2026-06-26
+    limite: false
+    url: https://zoek.officielebekendmakingen.nl/kst-1258871.html
+    local: sources/member-states/NL-BNC-FICHE-22112-4395_fiche-cloud-ai-development-act_2026-07-02.pdf
+    notes: >-
+      The Dutch government's formal first position (BNC-fiche) on CADA, sent to the Tweede Kamer by
+      the minister van Buitenlandse Zaken on 26 Jun 2026, published 2 Jul 2026 (kst-1258871; the
+      covering letter also transmits the unrelated meststoffen fiche 22112-4394). Eerstverantwoordelijk
+      ministerie: EZK. Cabinet verdict: competence assessment "deels positief, deels negatief"
+      (accepts Arts 114 + 173(3) TFEU but flags Art 173(3)'s harmonisation exclusion), subsidiarity
+      positive, proportionality "positief met kanttekeningen". Welcomes the package's aims (compute
+      capacity, geographic spread, sovereignty criteria incl. the tiered risk-based approach it sees
+      majority MS support for), but questions: the datacenter acceleration-zone designation duty
+      (6-month deadline, 12-month permit cap — may exceed necessity for MS with adequate capacity and
+      functioning permitting; no mechanism actually securing geographic spread, burdening
+      already-concentrated MS like NL), the central-information-point requirements (too little room
+      for existing national structures), the Commission's power to override a Member State's assigned
+      cloud assurance level (harmonisation already achievable via uniform criteria), whether a
+      regulation is the right instrument for the AI objectives, the AI Board's advisory role, and
+      unclear financial implications. Kabinet will push for a "meer gerichte en evenredige uitwerking"
+      in negotiations. Krachtenveld: majority of MS expected to back objectives; EP wants to go
+      further; committee/rapporteur not yet known. Summary in docs/member-state-positions.md.
