@@ -68,7 +68,9 @@ co_legislators:
   council:
     config: "Telecom Working Party (verify against ST 10104/26 cover note routing: TELECOM/CYBER/MI/COMPET/CODEC)"
   parliament:
-    committees_responsible: []            # not yet appointed; ITRE expected (verify)
+    committees_responsible: []            # not yet appointed; OEIL flags a Rule 59 JOINT committee
+                                          # (2-3 co-leads, one rapporteur each) — ITRE the strongest
+                                          # candidate, partner committee unnamed (verify at referral)
     committees_opinion: []
 
 # Advisory bodies that must be / have been consulted (drives the STATUS advisory table).
