@@ -41,6 +41,36 @@
 - [SUSE](https://www.suse.com/c/eu-cloud-ai-development-act-open-source-first/) — open-source-first / Art 41 angle.
 - [Tech Policy Press](https://www.techpolicy.press/eu-unveils-sweeping-tech-sovereignty-push-balancing-autonomy-with-openness/) — autonomy-vs-openness framing.
 
+## Academic / critical analyses
+
+- **Cecilia Rikap & Vali Stan (UCL Institute for Innovation and Public Purpose; Common Wealth)** —
+  [*"Does Europe Really Have a Plan for Tech Sovereignty?"*](https://www.techpolicy.press/does-europe-really-have-a-plan-for-tech-sovereignty/)
+  (Tech Policy Press, 2026-06-29) — a critical political-economy reading arguing the package
+  entrenches rather than reduces hyperscaler dependence. Four threads:
+  - **Control vs ownership.** Their central legal-design claim is that the assurance criteria turn on
+    where a service is *controlled from* rather than who *owns* the provider — "the open window for Big
+    Tech is the use of 'control' instead of ownership" — so a formally separated EU subsidiary of a US
+    hyperscaler (EU data location, EU personnel) can qualify. **Caveat:** this is the authors' reading;
+    **Annex II** (the per-level criteria) is *not* transcribed in this repo (the annexes sit in a
+    separate source document), and the [sovereignty-framework](provisions/sovereignty-framework.md)
+    page reports, from secondary sources, that level 3 requires EU *ownership and control*. The two
+    readings cannot yet be reconciled against operative text — verify against Annex II before relying
+    on either.
+  - **Procurement dependence.** They count **3,609 contracts or MoUs** between EU Member States and
+    Microsoft, Amazon or Google worth **€10.8bn**, over two-thirds Microsoft — bearing on
+    [public-sector-use](provisions/public-sector-use.md). *Unverified:* the figure comes from the
+    authors' own **forthcoming** research, with no external source cited.
+  - **Ecological footprint.** They read the tripling-of-capacity objective (see
+    [acceleration zones](provisions/data-centre-acceleration-zones.md)) as accepting "Big Tech's
+    techno-solutionist narrative" — "trusting that innovation will compensate for the ecological
+    footprint of data centers".
+  - **Open source is not enough.** On [Art 41 open-source-first](provisions/open-source.md), they argue
+    model openness does not by itself shift rents: "the use of models on their infrastructure — be them
+    open systems or not — is charged with processing fees".
+
+  The piece offers no alternative framework, concluding with a call to address "Big Tech's epistemic
+  capture". It does not discuss the sibling Chips Act 2.0 file.
+
 ## Compliance trackers (unofficial)
 
 - [eu-cloud-ai-act.com](https://www.eu-cloud-ai-act.com/) (Cyber Risk GmbH) — article-by-article mirror;
