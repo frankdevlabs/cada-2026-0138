@@ -7,7 +7,7 @@
 | **Legal bases** | Articles 114 and 173(3) TFEU |
 | **OLP stage** | 1st reading — **proposal tabled**; Council in working-party examination (Telecom WP; deliberations 16 Jun and 7 Jul 2026), Parliament at pre-referral (referral pending; ITRE shadow rapporteur named, no lead rapporteur); **no general approach, no trilogue** |
 | **Latest text** | The Commission proposal itself — **COM(2026) 502 final** (3 June 2026) · [register](sources/README.md) (no compromise text exists yet) |
-| **As of** | **22 July 2026** (= `data/tracker-state.yaml` `last_run`) |
+| **As of** | **23 July 2026** (= `data/tracker-state.yaml` `last_run`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); substance reflects the operative text of
