@@ -51,6 +51,47 @@ negatief"** (accepts Arts 114 + 173(3) TFEU as bases but flags that Art 173(3) e
 - **Krachtenveld:** majority of Member States expected to back the objectives; the EP is expected to push
   for *more* far-reaching measures; lead committee/rapporteur not yet known.
 
+**BNC-fiche — Communication on European Tech Sovereignty incl. EU Open Source Strategy** (Kamerstuk
+**22112, nr. 4406**; letter of the minister van Buitenlandse Zaken dated **10 July 2026**, published
+22 July 2026; eerstverantwoordelijk ministerie EZK; Council track: Telecomraad) —
+[register](../sources/README.md#member-state-positions) ·
+[kst-1263575](https://zoek.officielebekendmakingen.nl/kst-1263575.html) ·
+[Beslisnota blg-1263576](https://zoek.officielebekendmakingen.nl/blg-1263576.html) ·
+[committed PDF](../sources/member-states/NL-BNC-FICHE-22112-4406_fiche-tech-sovereignty-communication-open-source_2026-07-22.pdf)
+
+The cabinet's appraisal of the **umbrella Communication** COM(2026) 503 (*European Tech Sovereignty*,
+accompanied by an *EU Open Source Strategy*; received 3 Jun 2026) — the package-level document sitting
+above CADA and the Chips Act 2.0 (CAII). Distinct from the CADA-specific fiche (nr. 4395 above), but
+squarely CADA-relevant: it names **CADA as the demand-side instrument** strengthening demand for European
+cloud/AI/digital solutions, and insists the Communication and Open Source Strategy must **dovetail with
+CADA and CAII**. Grondhouding: **competence positive**, **subsidiarity positive**, **proportionality
+"positief met een aandachtspunt"**. Substance:
+
+- **Broadly supportive** of the Communication and the Open Source Strategy; aligns with the NL non-paper
+  and the cabinet's integrated "full digital value chain" line (semiconductors → infrastructure → cloud,
+  software, AI). Endorses the ecosystem approach coupling demand- and supply-side measures, and welcomes
+  the greater emphasis on **demand creation** with the public sector as anchor customer.
+- **AI value-chain gap (the "aandachtspunt"):** the package's scope stays too narrow — **CAII** covers the
+  semiconductor value chain and **CADA** the build-out of datacentre capacity and adoption of sovereign
+  cloud services, but "**er zijn geen instrumenten opgenomen die expliciet en concreet bijdragen aan … de
+  ontwikkeling van AI-modellen en softwaretoepassingen**". Essential links (AI models, software, algorithms,
+  talent, quality data) are missing; the cabinet will **press for additional EU action** so that CADA + CAII
+  together cover the whole AI tech stack, building on the Apply AI strategy, the AI Continent Action Plan and
+  the AI (giga)factories.
+- **Open Source Strategy (maps onto CADA Art 41 open-source-first):** positive on the strategy and its
+  cross-cutting positioning; consistent with the cabinet's **"open, tenzij"** line for government software.
+  Welcomes the **"open-source-first" approach in procurement**, the OSPO-network support, and the **EDIC
+  Digital Commons** (NL is co-founder and chair). Will **ask the Commission to clarify the scope of the
+  proposed open-source-first principle**.
+- **Data Centre Acceleration Zones / equity mechanism:** for the precise position on the **Data Centre
+  Acceleration Zones** (and the Semiconductor Regions of Excellence) the fiche **defers to the separate
+  CADA and CAII fiches**. On the proposed *eigenvermogenmechanisme* (equity mechanism) for critical tech
+  and infrastructure, the cabinet shares the urgency but awaits a concrete proposal and the announced
+  consultation before taking a view; welcomes the EU-wide investment promotion/matchmaking function.
+- **Krachtenveld:** the package's proactive, integrated role is broadly welcomed by large and small Member
+  States alike; the EP is expected to push for **more far-reaching** measures; lead committee/rapporteur
+  not yet known. The cabinet will link the package's delivery to the European **Tech Creators Coalition (TCC)**.
+
 **National context:**
 
 - The cabinet now has a State Secretary for Digital Economy and Sovereignty (W.J.M. Aerdts, EZ);
