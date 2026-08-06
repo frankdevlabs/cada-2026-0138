@@ -85,7 +85,5 @@ sources:
     consecutive_failures: 10
     first_failed_at: "2026-07-17T11:52:31Z"
     last_failed_at: "2026-07-31T11:48:59Z"
-    paused: true
-    paused_at: "2026-07-31T11:48:59Z"
     unreachable_reason: "HTTP 503 with a Wordfence block page ('Your access to this site has been limited') instead of RSS"
-    note: "2026-08-06: SKIPPED — auto-paused since 07-31 (Wordfence 503 access-limited page, 10 consecutive failures / 14 days). Not polled this run; awaiting manual intervention. Hash NOT updated (last-good ca5c5771 retained). Pause noted in source-health #40. While paused, the Council-outcomes Tier-2 mirror is unavailable — Telecom/TTE Council outcomes visible only via T1-04 and T1-02."
+    note: "2026-08-06: un-paused — the failure was the banned /feed/ trailing slash, not an outage; url corrected to /feed, so the next run re-baselines the hash. Previously: SKIPPED — auto-paused since 07-31 (Wordfence 503 access-limited page, 10 consecutive failures / 14 days). Not polled this run; awaiting manual intervention. Hash NOT updated (last-good ca5c5771 retained). Pause noted in source-health #40. While paused, the Council-outcomes Tier-2 mirror is unavailable — Telecom/TTE Council outcomes visible only via T1-04 and T1-02."

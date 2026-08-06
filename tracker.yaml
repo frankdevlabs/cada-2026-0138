@@ -216,8 +216,8 @@ watchlist:
       tier: T2
       kind: stakeholder
       label: "INSIGHT EU MONITORING — RSS"
-      url: "https://ieu-monitoring.com/feed/"
+      url: "https://ieu-monitoring.com/feed"
       affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
-      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (e.g. the 9 June 2026 TTE Telecom Council). Filter on CADA / Telecom Council / tech sovereignty keywords."
+      notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (e.g. the 9 June 2026 TTE Telecom Council). Filter on CADA / Telecom Council / tech sovereignty keywords. URL must have NO trailing slash: /feed/ is Cloudflare/Wordfence-blocked (503, later 403 'Just a moment...'), while /feed serves the RSS (200, application/rss+xml) to a plain curl and is the endpoint the feed itself advertises as atom:link rel=self. The 10-failure auto-pause of 2026-07-31 was this trailing slash, not an outage (same root cause as digital-omnibus issue #118)."
     # --- Tier 3: social ------------------------------------------------------
     # none yet
