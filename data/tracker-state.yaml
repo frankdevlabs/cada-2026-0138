@@ -5,64 +5,64 @@
 # same T1-*/T2-*/T3-* codes. STATUS.md's "As of" date = this file's `last_run`.
 #
 # Ships EMPTY — the first tracker run populates it. Nothing to seed by hand.
-last_run: "2026-08-07T11:51:45Z"
+last_run: "2026-08-10T11:50:51Z"
 sources:
   T1-01:
-    last_seen_hash: "sha256:00dfe8898a6806124d4ae8466e702d9f5332484c8eb38619a78a7fd234b19ce6"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: RECOVERED (HTTP 200, 101287 bytes, real page) after the 08-06 server-side 500. Normalized hash changed (ded2f3d0->00dfe889). GENUINE HIT -> issue #43: OEIL rapporteur-meetings widget now names IMCO with a full Rapporteur, VAN LANSCHOT Reinier (meetings 12/05 CISPE, 19/05 MEDEF, 09/06 Bitkom, 15/07 RUSI, 16/07 Mistral AI), resolving the previously-unnamed Rule-59 partner committee; GEESE (ITRE shadow) adds a 13/07 CISPE meeting. Formal block still 'Joint committee responsible / Pending final decision on the referral' (key events still only 03/06/2026); T1-07 leg-train unchanged (pre-referral 20/06/2026) — so this is OEIL transparency data, not a formal appointment. Referenced #33 (closed 08-05) and #1. failure fields cleared."
+    last_seen_hash: "sha256:3dafa82cfabc244889db0545ae693c46b111e76f39ed9989f20e520d558f3013"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: HTTP 200 (101287 bytes). Normalized hash changed (00dfe889->3dafa82c). GENUINE HIT -> re-detection comment on OPEN issue #43 (dedup: OEIL URL matched still-open #43). OEIL interest-representative widget added meetings for Rapporteur VAN LANSCHOT Reinier (IMCO): 30/07/2026 Aiven, 28/07/2026 TELUS Digital, 16/07/2026 DeepL (alongside the 16/07 Mistral AI already in #43). Formal block UNCHANGED: 'Joint committee responsible / Pending final decision on the referral'; Key events still only 03/06/2026 legislative proposal. Corroborated pre-referral by T1-07 (as-of 20/06/2026, identical hash) and T1-02 (no event past 07-07 WP). Transparency data, not a formal appointment."
   T1-02:
-    last_seen_hash: "sha256:79132038a8c5da978b66d332c3f33288ae7929449164fa6626ba8dab50ff1925"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: HTTP 200 but 125477 bytes = the FULL object notice (type='object') this run, vs the lean 6660-byte expression notice on 08-06 -> hash flipped (e7d61dd7->79132038). NOT a hit: the only procedure events it carries are DELIB_WP_byCONSIL for 2026-06-16 and 2026-07-07, BOTH already flagged and closed (#16 = 16 Jun WP, #31 = 07 Jul WP). No new event beyond 07-07. This is the known lean<->full Cellar notice-form oscillation re-surfacing already-tracked events — a future lean-form fetch will flip the hash back; check EVENT dates against #16/#31 before flagging. Hash updated to current (full) form."
+    last_seen_hash: "sha256:f9b4bef55aa1ea0e00d5582ae44b289ceea87dadce6a1c36de5b1fc5b33c2b63"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: HTTP 200, 125477 bytes (full object notice again). Hash flipped (79132038->f9b4bef5) at the SAME byte size as last run's full form — a rotating identifier inside the notice, not new content. Events unchanged: adoption 2026-06-03, 2026-06-05, plus DELIB_WP_byCONSIL 2026-06-16 and 2026-07-07 — ALL already flagged/closed (#16 = 16 Jun WP, #31 = 07 Jul WP). No new event beyond 07-07. Not a hit; hash updated to current form."
   T1-03:
-    last_seen_hash: "sha256:81e790494bbfdf07fe4cb06bf07fab63e1c4ed97673a14507e7cc4f6b429f2c2"
-    last_seen_at: "2026-08-06T11:53:23Z"
-    consecutive_failures: 1
-    first_failed_at: "2026-08-07T11:51:45Z"
-    last_failed_at: "2026-08-07T11:51:45Z"
-    unreachable_reason: "curl got HTTP 202 AWS-WAF as expected; fetch_blocked_doc.py exit 0 but returned only a 13692-byte EUR-Lex shell page (title 'EUR-Lex - Official Journal of the European Union', zero procedure/2026-0138/52026PC0502 content) on two attempts, vs the full 109195-byte HIS page last run — partial browser render, not a real change"
-    note: "2026-08-07: DEGRADED FETCH, not unreachable-by-design and not a real change. Hash NOT updated (last-good 81e79049 retained). Procedure history corroborated unchanged via T1-02 (only events 16 Jun / 07 Jul WP, both tracked) and T1-01 (formal block still pre-referral). Logged to source-health #40. Retry the fetcher next run."
+    last_seen_hash: "sha256:7368a34eb465ed898f766511ffef88dc9c1557b99c963987a9f9a45657fa44c5"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: RECOVERED. curl got HTTP 202 (WAF) as expected; fetch_blocked_doc.py browser tier returned the FULL 109195-byte HIS page (title 'EUR-Lex - 52026PC0502 - EN'), vs the degraded 13692-byte shell on 08-07. Normalized hash changed (81e79049->7368a34e) but procedure history UNCHANGED (only 03/06/2026 legislative proposal; corroborated by T1-02 events <=07-07 and T1-01 pre-referral formal block) — the diff is full-page furniture drift, not a real change. Not a hit; hash updated to current good full render; failure fields cleared."
   T1-04:
     last_seen_hash: "sha256:75e74ef5354a728cae9de3f557cfd28a09e68d519a5c77552bcb3cf20910d932"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: HTTP 200 (1281425 bytes). Normalized PDF-text hash IDENTICAL to last-good 75e74ef5 — no new ST content, still the base ST-10104-2026-INIT cover note. Highest-priority stream (Council ST compromise texts) — still watching for the ST number tied to the 16 Jun / 07 Jul Council WP deliberations (#16/#31)."
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: HTTP 200 (1281425 bytes). Normalized PDF-text hash IDENTICAL to last-good 75e74ef5 — no new ST content, still the base ST-10104-2026-INIT cover note. Highest-priority stream (Council ST compromise texts) — still watching for the ST number tied to the 16 Jun / 07 Jul Council WP deliberations (#16/#31)."
   T1-05:
-    last_seen_hash: "sha256:3a7c5187dce7e523227f8de5de79e153add873d8a373b1c46ffb2da812d78daf"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (8c033be4->3a7c5187); HTTP 200. 'Last update 3 June 2026' unchanged; no Corrigendum, no delegated/implementing act, no consultation, no new Documents entry. Drift is the rotating related-content block. Not flagged; hash updated."
+    last_seen_hash: "sha256:dd229a2c79c1cdec65a6111c6ccccea89a021f1201fe593acb0a00be2c1b23ea"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (3a7c5187->dd229a2c); HTTP 200. 'Last update 3 June 2026' unchanged; no Corrigendum, no delegated/implementing act, no consultation, no new Documents entry. Drift is the rotating related-content block. Not flagged; hash updated."
   T1-06:
-    last_seen_hash: "sha256:b4ee37ba01ef4add73a97fdc425c2b9203d5d18b83de62579fc788a37c868e4f"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (5e38b7b8->b4ee37ba); HTTP 200. Download list UNCHANGED (COM(2026) 502 Proposal, Annexes, SWD(2026) 502 Impact Assessment Part 1; NO Corrigendum). 'Last update 8 June 2026' unchanged. Drift is rotating furniture. Not a hit; hash updated."
+    last_seen_hash: "sha256:05f3c51d1101c99a6308cd9540c38b41fd0d123b37e53c7ca89b52f7d85939b4"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (b4ee37ba->05f3c51d); HTTP 200. Download list UNCHANGED (COM(2026) 502 Proposal, Annexes, SWD(2026) 502 Impact Assessment; NO Corrigendum). 'Last update 8 June 2026' unchanged. Drift is rotating furniture. Not a hit; hash updated."
   T1-07:
     last_seen_hash: "sha256:b4a467aef9411001946f3eeab89bae8b1ef9d901dd3c0b4fb2fe8a91eca5fe05"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: plain curl WAF-blocked (HTTP 202); refetched via fetch_blocked_doc.py (browser tier, 91462 bytes, exit 0). Normalized hash IDENTICAL to last-seen (b4a467ae); substance unchanged: still 'Information updated as of 20/06/2026', Status 'Announced', pre-referral. Independently corroborates that T1-01's IMCO/VAN-LANSCHOT signal (#43) is OEIL transparency data, not a formal referral. Not a hit."
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: plain curl WAF-blocked (HTTP 202); refetched via fetch_blocked_doc.py (browser tier, 91462 bytes, exit 0). Normalized hash IDENTICAL to last-seen (b4a467ae); substance unchanged: still 'Information updated as of 20/06/2026', pre-referral. Independently corroborates that T1-01's new IMCO/VAN-LANSCHOT meetings (#43) are OEIL transparency data, not a formal referral. Not a hit."
   T1-08:
-    last_seen_hash: "sha256:fa1c4e5af5835b0c8a31f68d9f0a8d308c4b34b06fe7f15971fd445e6c75d92b"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (44892615->fa1c4e5a, rotating plenary/events furniture). EESC opinion substance unchanged: INT/1126, rapporteur Miroslav HAJNOS (Workers/GR II, SK), status 'Ongoing (updated on 20/03/2026)', Bureau decision 17/03/2026, plenary 608 (23-24 Sep 2026 — already recorded, closed issue #2). No adoption date. Not flagged; hash updated."
+    last_seen_hash: "sha256:1092b008e4597b3135c040dd39a2eb275ff5014ea05cb7a7cd3f572a0b48ed65"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (fa1c4e5a->1092b008, rotating plenary/events furniture). EESC opinion substance unchanged: INT/1126, status 'Ongoing (updated on 20/03/2026)', Bureau decision 17/03/2026, plenary 608 (23-24 Sep 2026 — already recorded, closed issue #2). No adoption date. Not flagged; hash updated."
   T1-09:
-    last_seen_hash: "sha256:9b455c2ba76ead4425a8d824dd4ac6db8f18cac8ad41dcdebfa1dea18be62d87"
-    last_seen_at: "2026-08-06T11:53:23Z"
-    consecutive_failures: 1
-    first_failed_at: "2026-08-07T11:51:45Z"
-    last_failed_at: "2026-08-07T11:51:45Z"
-    unreachable_reason: "RSS query endpoint returned HTTP 500 (server-side NL 'env-prod' error page, 9785 bytes) on both the initial fetch and the 10s-backoff retry"
-    note: "2026-08-07: transient server-side 500 (was HTTP 200 on 08-06). Hash NOT updated (last-good 9b455c2b retained). Logged to source-health #40. Watch next run; still watching for the Chips Act 2.0 BNC-fiche."
+    last_seen_hash: "sha256:32cbb2a536664cb3bb94821b9940ee2ef6747c2f69ee08fe347b43708b45cbd6"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: RECOVERED — HTTP 200 (66777 bytes, 150 items) after the 08-07 server-side 500; failure fields cleared. Hash changed (9b455c2b->32cbb2a5) on newly-rolled-in items. Scope scan: the only CADA-relevant matches are OLD tracked items (kst-1253379 = 11 Jun uitstel-fiche notice on COM(2026) 502; blg-1255502 '502' is a coincidental doc-number, off-topic). Newest items (blg-1264996 etc.) + the Chips-Act-review-consultation / COM(2026) 504 hits are out of scope (sibling / non-CADA furniture). Not a hit; hash updated. Still watching for the Chips Act 2.0 BNC-fiche (sibling, would remain out of scope)."
   T1-10:
     last_seen_hash: "sha256:a2d8f17fd08ef845e0c6869127f61ab9c09de21989f3301b25377b0438a013f8"
     last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: HTTP 200 (150 items). Hash drifted (7a13d3cd->a2d8f17f) — new items dated 07 Aug 2026 (kst-1265102 + blg-1265103/104 = TVE Council Q1/Q2 2026 quarterly reports on milieu/transport dossiers; 28 Jul ECB green-investment motion appreciation). Scope-token scan = ZERO CADA / Cloud and AI / 2026/0138 / cloudsoevereiniteit / Cloud Sovereignty / EuroCloud / datacenter / tech-sovereignty match. All new items are environment/transport/energy furniture, out of scope. Not a hit; hash updated."
+    consecutive_failures: 1
+    first_failed_at: "2026-08-10T11:50:51Z"
+    last_failed_at: "2026-08-10T11:50:51Z"
+    unreachable_reason: "RSS query endpoint returned HTTP 500 (server-side NL 'env-prod' error page, ~9790 bytes) on both the initial fetch and the 10s-backoff retry"
+    note: "2026-08-10: transient server-side 500 (was HTTP 200 on 08-07). Hash NOT updated (last-good a2d8f17f retained). Failure #1. Logged to source-health #40. Watch next run."
   T1-11:
-    last_seen_hash: "sha256:d80e154296bdaf7c55e4ff43bc641256b644c387cb17d45374bf8c4b1fded90e"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (44e892de->d80e1542); HTTP 200. Scope-token scan finds ZERO in-scope match (no CADA / Cloud and AI / 2026/0138 / COM(2026)502 / Cloud Sovereignty / cloudsoevereiniteit / EuroCloud / Tech Sovereignty / technologische soevereiniteit / cloudverordening). Generic AI/digital-gov furniture. Out of scope. Not a hit; hash updated."
+    last_seen_hash: "sha256:fcd0ebd21b441fe47f4cd4354a021d68e9397b5a5234191ec96d04562889ef86"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (d80e1542->fcd0ebd2); HTTP 200. Scope-token scan finds ZERO in-scope match (no CADA / Cloud and AI / 2026/0138 / COM(2026)502 / Cloud Sovereignty / cloudsoevereiniteit / EuroCloud / Tech Sovereignty / technologische soevereiniteit / cloudverordening). Generic AI/digital-gov furniture. Out of scope. Not a hit; hash updated."
   T1-12:
     last_seen_hash: "sha256:c97557ad8a2685aa6bd47e630ba9454cdfe55ef9647978007cf2e2adf49bda8b"
     last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: initial fetch HTTP 500 (transient), retry HTTP 200 (3107 bytes, 6 items). Hash IDENTICAL to last-seen c97557ad. Content unchanged: newest item 26 May 2026, same 6 Kamervragen — no in-scope EU cloud-and-AI-regulation question. Not a hit."
+    consecutive_failures: 1
+    first_failed_at: "2026-08-10T11:50:51Z"
+    last_failed_at: "2026-08-10T11:50:51Z"
+    unreachable_reason: "RSS query endpoint returned HTTP 500 (server-side NL 'env-prod' error page, ~9790 bytes) on both the initial fetch and the 10s-backoff retry"
+    note: "2026-08-10: transient server-side 500 on both initial + retry (last run recovered on retry to identical content). Hash NOT updated (last-good c97557ad retained). Failure #1. Logged to source-health #40. Watch next run."
   T1-13:
     seen_refs: []
     last_seen_at: "2026-07-23T11:48:00Z"
@@ -72,24 +72,24 @@ sources:
     first_failed_at: "2026-07-24T11:45:00Z"
     last_failed_at: "2026-08-07T11:51:45Z"
     unreachable_reason: "EP committee-documents listing returns HTTP 202 / AWS-WAF challenge (0 bytes) to plain curl; ep_committee_docs.py finds 0 es_document blocks"
-    note: "2026-08-07: AUTO-PAUSED. ep_committee_docs.py ITRE found 0 es_document blocks again (WAF challenge, exit 0) — 10th consecutive failing day (07-24, 07-27, 07-28, 07-29, 07-31, 08-03, 08-04, 08-05, 08-06, 08-07). 14-day auto-pause threshold (first failure 07-24) reached today -> paused=true; will be SKIPPED next run until manual intervention. seen_refs kept [] — NO CADA doc missed: file is pre-referral (T1-07 pre-referral 20/06/2026; T1-01 formal block 'Pending final decision on the referral'), so in-scope result is [] regardless. On resume, switch to the headless-browser fallback once the file is referred and the listing becomes the doc stream. Logged to source-health #40."
+    note: "2026-08-10: SKIPPED (auto-paused 2026-08-07 after 10 consecutive WAF failures reaching the 14-day threshold). Remains paused pending manual intervention. seen_refs kept [] — NO CADA doc missed: file is pre-referral (T1-07 pre-referral 20/06/2026; T1-01 formal block 'Pending final decision on the referral'), so in-scope result is [] regardless. On resume, switch to the headless-browser fallback once the file is referred and the listing becomes the doc stream."
   T2-01:
-    last_seen_hash: "sha256:8a29d2d21bded0b65a9f970abfc839421f8342d38eaeffc0880063b865940d1b"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: HTTP 200, feed healthy on /rss/feed.xml. Per-item scan: NO NEW match on CADA / 'Cloud and AI Development Act' / 'tech sovereignty' / 'EU cloud'. All keyword matches are pre-existing (newest 29 Jun 2026 = issue #34); none dated after last_run. Hash drifted on new non-CADA items. Not a hit; hash updated."
+    last_seen_hash: "sha256:b4551b5f160550ca85a41d8bc7718abf09a77d95dbf65cc37cbd92876b43752d"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: HTTP 200, feed healthy on /rss/feed.xml (3845 items). Per-item scan: NO NEW match on CADA / 'Cloud and AI Development Act' / 'tech sovereignty' / 'EU cloud'. All 'Tech Sovereignty' hits are pre-existing (newest 29 Jun 2026 = issue #34); none dated after last_run. Hash drifted on new non-CADA items. Not a hit; hash updated."
   T2-02:
-    last_seen_hash: "sha256:935eeae5b5868c643079a59e429281ac1d3958741d9eb3e673dba8b3de990550"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (b7249653->935eeae5); HTTP 200. Keyword scan finds ZERO CADA / acceleration zone / soevereiniteit / Cloud and AI / cloudverordening / 'Europese cloud' match (site = Dutch Data Centers; the generic site-name token 'datacenter' did not fire this run). Not a hit; hash updated."
+    last_seen_hash: "sha256:10ec9264867c5a2bb430554291c2d4e8b34973bbefb95631be0d221ea890e7cd"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (935eeae5->10ec9264); HTTP 200. Keyword scan finds ZERO CADA / acceleration zone / soevereiniteit / Cloud and AI / cloudverordening / 'Europese cloud' / datacenter-in-EU-context match. Not a hit; hash updated."
   T2-03:
-    last_seen_hash: "sha256:4b8822891e7bf219bef9630528ea59738c15d4eecb198c173473212faf9785c0"
-    last_seen_at: "2026-08-07T11:51:45Z"
-    note: "2026-08-07: hash drifted (a5d4664b->4b882289); HTTP 200. Zero CADA / soevereiniteit / Tech Sovereignty / Cloud and AI / cloudverordening match. Out of scope. Not a hit; hash updated."
+    last_seen_hash: "sha256:637c898c90daf50b49df5fd03e0d71e1ffcbf25b46dedd44296e7bf4f3eb9fd3"
+    last_seen_at: "2026-08-10T11:50:51Z"
+    note: "2026-08-10: hash drifted (4b882289->637c898c); HTTP 200. Zero CADA / cloud / soevereiniteit / Tech Sovereignty / Cloud and AI / cloudverordening match. Out of scope. Not a hit; hash updated."
   T2-04:
     last_seen_hash: "sha256:ca5c5771e220e001a8fc24e40c0eda746343fa4a8c48831b46fd7edb5179aa6e"
     last_seen_at: "2026-07-16T11:49:43Z"
-    consecutive_failures: 1
+    consecutive_failures: 2
     first_failed_at: "2026-08-07T11:51:45Z"
-    last_failed_at: "2026-08-07T11:51:45Z"
-    unreachable_reason: "GET /feed (no trailing slash, per #42) returned HTTP 403 with a Cloudflare 'Just a moment...' interstitial (text/html), not RSS"
-    note: "2026-08-07: STILL UNREACHABLE after the 08-06 un-pause. The corrected /feed endpoint now serves a Cloudflare challenge (403 'Just a moment...') to plain curl, so the outage was not only the banned trailing slash — the whole feed is Cloudflare-challenged today. Hash NOT updated (last-good ca5c5771 retained; feed never re-baselined). Failure #1 since un-pause. Logged to source-health #40. Council-outcomes Tier-2 mirror unavailable — Telecom/TTE outcomes visible only via T1-02/T1-04."
+    last_failed_at: "2026-08-10T11:50:51Z"
+    unreachable_reason: "GET /feed (no trailing slash, per #42) returned HTTP 403 with a Cloudflare 'Just a moment...' interstitial (text/html, 5548 bytes), not RSS"
+    note: "2026-08-10: STILL UNREACHABLE. The corrected /feed endpoint continues to serve a Cloudflare challenge (403 'Just a moment...') to plain curl — the whole feed is Cloudflare-challenged, not a trailing-slash problem. Hash NOT updated (last-good ca5c5771 retained; feed never re-baselined). Failure #2 since the 08-06 un-pause. Logged to source-health #40. Council-outcomes Tier-2 mirror unavailable — Telecom/TTE outcomes visible only via T1-02/T1-04."
