@@ -27,7 +27,7 @@ kind exists yet.
 
 ### European Commission — proposer
 - **Stage:** Proposal adopted and transmitted to both co-legislators (3 June 2026)
-- **Latest act:** COM(2026) 502 final + annexes + SWD(2026) 502/503 — [digest](docs/commission-proposal.md) · [library page](https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada)
+- **Latest act:** COM(2026) 502 final + annexes + SWD(2026) 502/503 — [digest](docs/commission-proposal.md) · [library page](https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada). The external supporting study underpinning the impact assessment (SWD(2026) 502) was published 11 Aug 2026 ([evidence base](docs/commission-proposal.md) · [library](https://digital-strategy.ec.europa.eu/en/library/study-cloud-and-ai-development-eu)) — background, no procedural step
 - **Owner:** DG CNECT; political leads President von der Leyen and EVP Virkkunen ("we want to be sure nobody has a kill switch")
 - **Position:** Defends a standalone regulation: EU Cloud Sovereignty Framework with four assurance levels, tripling of EU data-centre capacity in 5–7 years (~€200bn mostly private investment), acceleration zones, an EuroCloud Federation, common procurement and an open-source-first rule — [fault lines](docs/fault-lines.md)
 - **Next:** Call for AI Gigafactories expected July 2026; consultation with Member States/EIB Group on "European equity capacity at scale"

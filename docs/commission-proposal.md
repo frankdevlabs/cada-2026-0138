@@ -4,6 +4,7 @@
   strengthening Europe's cloud and AI ecosystem (Cloud and AI Development Act)", Text with EEA relevance
 - **Legal bases:** Articles 114 and 173(3) TFEU
 - **Accompanying:** SWD(2026) 502 (impact assessment, Parts 1–2), SWD(2026) 503 (executive summary), Annexes 1–3
+- **Evidence base:** external supporting study "Study on Cloud and AI Development in the EU" (Technopolis / Wavestone / STL Partners / Kappa Research / Timelex / Open Forum Europe; commissioned 2024, published 11 Aug 2026) — the empirical study whose findings informed SWD(2026) 502: [library page](https://digital-strategy.ec.europa.eu/en/library/study-cloud-and-ai-development-eu) · [full study](https://data.europa.eu/doi/10.2759/9828163) · [executive summary](https://data.europa.eu/doi/10.2759/0266190)
 - **Base-text extracts:** [`extracts/commission/`](../extracts/commission/) — transcribed (10 slices; anchors `article-N`)
 - **Register entry:** [`sources/README.md`](../sources/README.md)
 

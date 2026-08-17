@@ -58,6 +58,25 @@ documents:
     url: https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada
     local: sources/commission/SWD-2026-503_impact-assessment-summary_2026-06-03.pdf
 
+  - id: STUDY-CLOUD-AI-2026
+    title: "Study on Cloud and AI Development in the EU (external supporting study for the CADA impact assessment)"
+    body: Commission
+    date: 2026-08-11
+    limite: false
+    access: cite-only
+    url: https://digital-strategy.ec.europa.eu/en/library/study-cloud-and-ai-development-eu
+    lead_source: "Surfaced via INSIGHT EU MONITORING — RSS (T2-04), item 14 Aug 2026: https://ieu-monitoring.com/editorial/eu-commission-study-maps-cloud-and-ai-capacity-gaps-and-foreign-dependencies/1247608/"
+    notes: >-
+      External supporting study commissioned by the Commission in 2024 (contractors: Technopolis,
+      Wavestone, STL Partners, Kappa Research, Timelex, Open Forum Europe); published on the Commission
+      library page 11 Aug 2026. The empirical evidence base whose findings informed the CADA impact
+      assessment SWD(2026) 502 (already registered) — background, not an operative or position text, so
+      cite-only (no file committed). Maps EU cloud/AI capacity gaps, the geographically concentrated
+      availability of compute within the EU, and dependence on non-European suppliers; assesses a
+      baseline plus three policy-option sets via a monetised cost-benefit analysis and multi-criteria
+      decision analysis. Downloads: full study https://data.europa.eu/doi/10.2759/9828163 · executive
+      summary https://data.europa.eu/doi/10.2759/0266190
+
   - id: ROADMAP-2026-04-23
     title: "Joint Roadmap 'One Europe, One Market' (EP / Council / Commission)"
     body: Commission
