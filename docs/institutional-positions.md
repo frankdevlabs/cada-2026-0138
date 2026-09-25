@@ -20,9 +20,15 @@ Commission proposal itself. The first formal position signals to watch (see
   [`member-state-positions.md`](member-state-positions.md).
 - **Parliament** — committee referral and rapporteur appointment; the pre-proposal
   [EPRS briefing](../sources/README.md) (Dec 2025) sketches the option space Parliament was given.
-- **EESC** — opinion in preparation (INT/1126; rapporteur Miroslav HAJNOŠ, Workers/GR II, SK,
-  INT section); scheduled for plenary 608 (23–24 Sep 2026)
-  ([opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act)).
+- **EESC** — opinion **adopted 23 Sep 2026** (plenary 608, vote 212/0/3; INT/1126, rapporteur
+  Miroslav HAJNOŠ, Workers/GR II, SK, INT section). Welcomes CADA's objective but requires targeted
+  revisions: secure the financing (protect cloud/AI infrastructure in the next MFF; mobilise EIB +
+  institutional capital), condition acceleration-zone designation (Art 10) on a social + environmental
+  impact assessment, meaningful social-partner/civil-society consultation on national strategies
+  (Art 7), a shared 25% SME procurement requirement (Art 33), weight for the "Union added value"
+  criterion (Art 32), and coverage of the "absorption side" — the silent erosion of capability to
+  operate without the deployed systems — in the Art 29 monitoring
+  ([digest](advisory/EESC-INT-1126.md) · [opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act)).
 
 Early friction lines between the institutions-to-be are catalogued in
 [`fault-lines.md`](fault-lines.md).
