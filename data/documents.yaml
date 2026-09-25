@@ -184,3 +184,32 @@ documents:
       so CADA + CAII together cover the whole AI tech stack. Defers its precise position on the Data
       Centre Acceleration Zones (and Semiconductor Regions of Excellence) to the separate CADA/CAII
       fiches. Summary in docs/member-state-positions.md.
+
+  - id: EESC-INT-1126
+    title: "EESC opinion — Cloud and AI Development Act (INT/1126-EESC-2026-01043-00-00-AC-TRA)"
+    body: EESC
+    date: 2026-09-23
+    limite: false
+    url: https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act
+    local: sources/advisory/EESC-INT-1126_opinion_2026-09-23.docx
+    notes: >-
+      Mandatory EESC opinion on COM(2026) 502 final – 2026/0138 (COD). Reference
+      INT/1126-EESC-2026-01043-00-00-AC-TRA; rapporteur Miroslav HAJNOŠ (Workers/GR II, SK),
+      advisor Pavlina Pavlova; INT section (Single Market, Production and Consumption). Referred
+      by the European Parliament 24 Jun 2026 and the Council 18 Sep 2026; legal basis Arts 114 +
+      173(3) TFEU. Adopted in section 8 Sep 2026, adopted at plenary session 608 on 23 Sep 2026,
+      vote 212/0/3. Welcomes CADA's objective but requires targeted revisions: secure the financing
+      (protect cloud/AI infrastructure in the next MFF; consolidated EU-financing overview before
+      the Art 7 national-strategy deadline; mobilise EIB + institutional/private capital as an
+      investment class), meaningful social-partner/civil-society/consumer consultation on Art 7
+      strategies, a social + environmental impact assessment condition on Art 10 acceleration-zone
+      designation (health, employment, energy, water) with a time-limited public consultation and
+      local-community compensation, a strict 6-month network-connection-capacity indication duty and
+      a check that EU electricity generation can match the tripling target, significant weight for
+      the Art 32 "Union added value" criterion, a European sustainable cloud/AI certification to
+      complement Art 11 sustainability indicators, turning the indicative 25% SME procurement
+      objective under Art 33 into a shared requirement, co-designing the cloud/AI skills curriculum
+      with social partners (with targeted measures for young people), and covering the "absorption
+      side" — the silent erosion of human/institutional capability to operate without the deployed
+      systems — in the Art 29 monitoring/risk assessments. EN text committed under sources/advisory/
+      (fetched from the EESC public document API). Digest: docs/advisory/EESC-INT-1126.md.

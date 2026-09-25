@@ -36,7 +36,7 @@
 
 | ID | Title | Date | Hosted file | Provenance |
 |---|---|---|---|---|
-| — | EESC opinion on CADA (in preparation) | — | none yet | [EESC opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) |
+| `EESC-INT-1126` | EESC opinion on CADA (INT/1126; rapporteur Hajnoš) — adopted plenary 608, vote 212/0/3 | 2026-09-23 | `sources/advisory/` (EN DOCX) | [EESC opinion page](https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions/cloud-and-ai-development-act) · [digest](../docs/advisory/EESC-INT-1126.md) |
 
 ## Member-state positions
 
