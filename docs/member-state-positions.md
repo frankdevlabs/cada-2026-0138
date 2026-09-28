@@ -99,6 +99,19 @@ CADA and CAII**. Grondhouding: **competence positive**, **subsidiarity positive*
   DigiD, Belastingdienst, etc.; committee: [Digitale Zaken](https://www.tweedekamer.nl/kamerleden_en_commissies/commissies/diza)).
   A DiZa written consultation treating the CADA fiche (agenda item 1, alongside the Digital-Omnibus item)
   is scheduled for 29 Sep 2026, ahead of the informal Telecom Council of 12–13 Oct 2026.
+- **Tweede Kamer motion on binding EU datacentre environmental/energy standards** (Kamerstuk
+  **21501-33, nr. 1246**; members **Kostić** and **Teunissen**, Partij voor de Dieren; tabled 24 Sep 2026,
+  published 28 Sep 2026) — [kst-21501-33-1246](https://zoek.officielebekendmakingen.nl/kst-21501-33-1246.html).
+  Tabled in the **Telecomraad** dossier (21501-33), it *"verzoekt de regering om zich in Europees verband
+  in te zetten voor bindende normen voor de energie- en milieuprestaties van datacenters"* (water/energy
+  efficiency, renewable energy, water use) — i.e. asks the government to advocate at **EU level** for
+  **binding datacentre energy/environmental-performance standards**. **Adjacent to CADA's datacentre-
+  capacity/energy-efficiency dimension, but not a CADA-specific position:** the motion names neither CADA
+  nor any specific instrument, and binding datacentre *environmental-performance* standards sit closer to
+  the **Energy Efficiency Directive**'s datacentre regime than to CADA's capacity/sovereignty mechanism.
+  A **tabled opposition motion, not government policy — vote pending.** Signal to watch: if adopted, it
+  would push the NL government toward advocating binding EU environmental standards, sharpening the
+  sustainability angle already implicit in the CADA fiche's acceleration-zone concerns.
 - The annotated agenda for the formal Telecom Council of 9 June 2026 (Kamerstuk 21501-33) predates the
   package presentation and contains no CADA appraisal.
 
