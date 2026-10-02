@@ -8,7 +8,7 @@
 |---|---|---|
 | **Commission** | proposer | Standalone sovereignty regulation: four assurance levels, capacity tripling, public-sector procurement obligations, open-source-first |
 | **Council** | co-legislator | No formal position — proposal circulated 4 June 2026 (ST 10104/26, Telecom WP); at the 9 June 2026 Telecom Council policy debate ministers welcomed the package (general orientations only, nothing CADA-specific) |
-| **Parliament** | co-legislator | None yet — no committee referral, no rapporteur (ITRE expected) |
+| **Parliament** | co-legislator | None yet — referred to committee 17 Sep 2026 under the joint committee procedure (Rule 59): joint **ITRE + IMCO**, rapporteurs **Solier (ECR, ITRE)** / **Van Lanschot (Greens/EFA, IMCO)**; awaiting committees' decision |
 
 The file is at the very start of the ordinary legislative procedure: the only institutional text is the
 Commission proposal itself. The first formal position signals to watch (see
@@ -18,7 +18,11 @@ Commission proposal itself. The first formal position signals to watch (see
   will mark where delegations start pulling; expected under the Irish Presidency (H2 2026). Until WK
   delegation-comment streams appear, member-state signals come from non-papers — see
   [`member-state-positions.md`](member-state-positions.md).
-- **Parliament** — committee referral and rapporteur appointment; the pre-proposal
+- **Parliament** — the file was **referred to committee on 17 September 2026** under the joint
+  committee procedure (Rule 59) to a joint **ITRE + IMCO** committee, with **Diego Solier (ECR, ES)**
+  rapporteur in ITRE and **Reinier Van Lanschot (Greens/EFA, NL)** rapporteur in IMCO (both appointed
+  24 Jun 2026); JURI and LIBE give opinions. The file is awaiting the committees' decision — the
+  first signal of a Parliament position will be the draft report(s). The pre-proposal
   [EPRS briefing](../sources/README.md) (Dec 2025) sketches the option space Parliament was given.
 - **EESC** — opinion in preparation (INT/1126; rapporteur Miroslav HAJNOŠ, Workers/GR II, SK,
   INT section); scheduled for plenary 608 (23–24 Sep 2026)
