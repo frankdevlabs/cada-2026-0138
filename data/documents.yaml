@@ -37,6 +37,13 @@ documents:
       Titles; legal bases Art 114 + 173(3) TFEU; Text with EEA relevance. Standalone regulation —
       amends/repeals nothing. Accompanied by SWD(2026) 502 (impact assessment, 2 parts) and
       SWD(2026) 503 (executive summary). Annexes 1–3 committed separately.
+      The authoritative EUR-Lex/Cellar notice (CELEX 52026PC0502) was fully populated by
+      2026-09-16: it now carries the formal procedure event `ADP_PROPLEG_byCOM` of 3 Jun 2026
+      (proposal adopted and transmitted to Parliament and Council — flags TRANS/PARL + TRANS/CONS),
+      all official-language expressions, and EuroVoc descriptors (technological independence,
+      ecosystem, innovation, provision of services, artificial intelligence, competitiveness,
+      computer centre, EU initiative, public sector) — confirming, not changing, the recorded
+      3 Jun 2026 adoption/transmission (see TIMELINE 2026-06-03).
 
   - id: SWD-2026-502
     title: "Impact assessment report accompanying the CADA proposal (Parts 1 and 2)"
