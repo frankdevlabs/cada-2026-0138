@@ -92,6 +92,39 @@ CADA and CAII**. Grondhouding: **competence positive**, **subsidiarity positive*
   States alike; the EP is expected to push for **more far-reaching** measures; lead committee/rapporteur
   not yet known. The cabinet will link the package's delivery to the European **Tech Creators Coalition (TCC)**.
 
+**Kamervragen answer — CADA acceleration zones in a deregulation Q&A** (Aanhangsel van de Handelingen
+**2026-2027, nr. 748**; answer by minister Herbert (EZK) to written questions **2026Z19353** of members
+**Brekelmans and Kisteman (VVD)**; received/published 24 November 2026) —
+[register](../sources/README.md#member-state-positions) ·
+[ah-1281744](https://zoek.officielebekendmakingen.nl/ah-1281744.html) ·
+[committed PDF](../sources/member-states/NL-KAMERVRAGEN-AH-748_antwoord-cloudcapaciteit-cada-versnellingszones_2026-11-24.pdf)
+
+An 81-page omnibus answer on scrapping/simplifying rules; **sub-question 26** ("Bureaucratie verlagen voor
+vergroten cloudcapaciteit", lead bewindspersoon: **Staatssecretaris Digitale Economie en Soevereiniteit**)
+is the only CADA-relevant item. The **VVD** questioners press the cabinet to be *"minder terughoudend"*
+(less reticent) about **CADA's datacenter acceleration zones**. The cabinet's answer **reaffirms and
+sharpens the BNC-fiche 4395 line** rather than moving it:
+
+- **Welcomes the objective:** sufficient cloud/datacentre capacity is "een randvoorwaarde … voor ons
+  toekomstig verdienvermogen en onze digitale open strategische autonomie", so the cabinet "verwelkomt
+  daarom de doelstelling van de Commissie om met de **Cloud and AI Development Act (CADA)** de uitrol van
+  datacentercapaciteit te versnellen".
+- **Keeps its reservations:** still "vragen over de **proportionaliteit en de vormgeving** van het
+  instrument, zoals nu voorgesteld in de CADA"; will push in negotiations for an instrument that
+  "procedures **daadwerkelijk versnelt**, aansluit op de **Nederlandse context** en **ruimte laat voor
+  bestaande structuren**" — the same "meer gerichte en evenredige uitwerking" stance as the fiche.
+- **New substantive argument (not in the fiche digest):** NL datacentre-capacity growth is now limited
+  "**voornamelijk door netcongestie, ruimtelijke schaarste en stikstof, en minder door regelgeving
+  alleen**"; an acceleration zone "heeft pas betekenis als daar ook **netcapaciteit en geschikte ruimte**
+  beschikbaar zijn". So the cabinet's practical point against embracing the zones is that regulation is
+  not the binding constraint in NL — consistent with the fiche's doubt about the designation duty for
+  Member States that already have functioning permitting.
+- **National follow-up:** the cabinet is working on a **national integrated approach for datacenters**,
+  on which the Kamer is to be informed "**dit najaar**" (autumn 2026) — a watch-item.
+
+No new EU procedural step; this is a national-position reaffirmation touching CADA's acceleration-zone /
+data-centre-capacity provisions (Arts on strategic projects / acceleration zones).
+
 **National context:**
 
 - The cabinet now has a State Secretary for Digital Economy and Sovereignty (W.J.M. Aerdts, EZ);
