@@ -184,3 +184,31 @@ documents:
       so CADA + CAII together cover the whole AI tech stack. Defers its precise position on the Data
       Centre Acceleration Zones (and Semiconductor Regions of Excellence) to the separate CADA/CAII
       fiches. Summary in docs/member-state-positions.md.
+
+  - id: NL-KAMERVRAGEN-AH-748
+    title: "NL Kamervragen answer — deregulation (\"regels\"), incl. Q26 on CADA datacenter acceleration zones (Aanhangsel 2026-2027 nr. 748)"
+    body: Netherlands
+    date: 2026-11-24
+    limite: false
+    url: https://zoek.officielebekendmakingen.nl/ah-1281744.html
+    mirror: https://zoek.officielebekendmakingen.nl/ah-1281744.pdf
+    local: sources/member-states/NL-KAMERVRAGEN-AH-748_antwoord-cloudcapaciteit-cada-versnellingszones_2026-11-24.pdf
+    notes: >-
+      Answer by minister Herbert (EZK) to written questions 2026Z19353 of members Brekelmans and
+      Kisteman (VVD) on scrapping/simplifying rules; received and published 24 Nov 2026 (Aanhangsel
+      van de Handelingen, vergaderjaar 2026-2027, nr. 748; ah-1281744). An 81-page omnibus deregulation
+      answer; only sub-question 26 ("Bureaucratie verlagen voor vergroten cloudcapaciteit", lead
+      bewindspersoon: Staatssecretaris Digitale Economie en Soevereiniteit) concerns this file. The VVD
+      questioners urge the cabinet to be "minder terughoudend" about CADA's datacenter acceleration
+      zones. Cabinet answer (verbatim CADA position): endorses that sufficient cloud/datacentre capacity
+      is a precondition for future earning capacity and digital open strategic autonomy, and "verwelkomt
+      daarom de doelstelling van de Commissie om met de Cloud and AI Development Act (CADA) de uitrol van
+      datacentercapaciteit te versnellen", but keeps "vragen over de proportionaliteit en de vormgeving
+      van het instrument, zoals nu voorgesteld in de CADA", pushing in negotiations for an instrument
+      that "procedures daadwerkelijk versnelt, aansluit op de Nederlandse context en ruimte laat voor
+      bestaande structuren". New substantive point vs the BNC-fiche 4395: NL datacentre growth is now
+      limited "voornamelijk door netcongestie, ruimtelijke schaarste en stikstof, en minder door
+      regelgeving alleen" — a versnellingszone only matters where grid capacity and suitable space also
+      exist; the cabinet is preparing a national integrated datacentre approach, with the Kamer to be
+      informed "dit najaar" (autumn 2026). Reaffirms and sharpens NL-BNC-FICHE-22112-4395; no new EU
+      procedural step. Summary in docs/member-state-positions.md.
