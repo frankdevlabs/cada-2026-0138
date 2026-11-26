@@ -92,6 +92,35 @@ CADA and CAII**. Grondhouding: **competence positive**, **subsidiarity positive*
   States alike; the EP is expected to push for **more far-reaching** measures; lead committee/rapporteur
   not yet known. The cabinet will link the package's delivery to the European **Tech Creators Coalition (TCC)**.
 
+**Tweede Kamer motions naming CADA (Telecomraad debate, 25 Nov 2026)** — two motions tabled by the lid
+**Van den Berg** (D.J. van den Berg) at the plenary debate following the Telecom Council, dossier
+**21501-33** (Raad voor Vervoer, Telecommunicatie en Energie); both **voorgesteld 25 Nov 2026**, published
+26 Nov; **vote pending** at the time of writing. These are single-member scrutiny motions instructing the
+government's **EU negotiating line** — not adopted Kamer instructions and distinct from the cabinet's own
+position (the CADA BNC-fiche, nr. 4395 above):
+
+- **Kamerstuk 21501-33, nr. 1265** ([kst-1282100](https://zoek.officielebekendmakingen.nl/kst-1282100.html))
+  — *"bij onderhandelingen over de CADA en de DNA bepleiten dat nieuwe verplichtingen aantoonbaar
+  aanvullend zijn"*. Noting that **CADA** and the **Digital Networks Act (DNA)** add new obligations
+  alongside existing rules (**NIS2, the Cybersecurity Act, the AVG/GDPR**) and that overlap can create
+  unnecessary admin burden especially for SMEs, it *"verzoekt de regering bij de onderhandelingen over de
+  CADA en de DNA te bepleiten dat nieuwe verplichtingen aantoonbaar aanvullend zijn op bestaande regels,
+  dat bedrijven bij overlappende meldplichten dezelfde gegevens waar mogelijk één keer kunnen aanleveren
+  en dat de administratieve en financiële gevolgen voor het mkb worden meegewogen"* — i.e. urges that any
+  new obligations be **demonstrably additional** to existing rules, with once-only data supply for
+  overlapping reporting duties and SME impact weighed. **Package-adjacent** (couples CADA with the DNA, a
+  separate file).
+- **Kamerstuk 21501-33, nr. 1264** ([kst-1282099](https://zoek.officielebekendmakingen.nl/kst-1282099.html))
+  — *"borgen dat Nederland zelf beslist of en waar het datacenterversnellingszones aanwijst"*. Noting that
+  CADA proposes a framework for **datacenter acceleration zones** (datacenterversnellingszones) and that
+  siting choices tie to national considerations on space, energy and water, it *"verzoekt de regering in
+  de Europese onderhandelingen te borgen dat Nederland zelf beslist óf en waar het
+  datacenterversnellingszones aanwijst en welke nationale ruimtelijke en maatschappelijke voorwaarden
+  daarbij gelden"* — i.e. urges the government to **safeguard that NL itself decides whether/where to
+  designate acceleration zones** and on what national conditions. Bears directly on CADA's
+  acceleration-zone mechanism and **reinforces the subsidiarity concern already in the CADA BNC-fiche**
+  (which contested the acceleration-zone designation duty and deadlines).
+
 **National context:**
 
 - The cabinet now has a State Secretary for Digital Economy and Sovereignty (W.J.M. Aerdts, EZ);
